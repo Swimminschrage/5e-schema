@@ -1,0 +1,114 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+  	"$id": "https://github.com/Swimminschrage/5e-schema/module.json",
+  	"definitions": {
+  		"participant": {
+  			"type": "object",
+  			"properties": {
+  				"creature_id": {
+  					"type": "string"
+  				},
+  				"quantity": {
+  					"type": "integer",
+  					"minimum": 1
+  				},
+  				"name": {
+  					"type": "string",
+  					"description": "Override the name associated with the creature from the creature_id"
+  				}
+  			},
+  			"required": [
+  				"creature_id"
+  			]
+  		},
+  		"encounter": {
+  			"type": "object",
+  			"properties": {
+  				"name": {
+  					"type": "string"
+  				},
+  				"desc": {
+  					"type": "string"
+  				},
+  				"participants": {
+  					"type": "array",
+  					"items": {
+  						"$ref": "#/definitions/participant"
+  					}
+  				}
+  			},
+  			"required": [
+  				"name",
+  				"participants"
+  			]
+  		}
+  	},
+  	"type": "object",
+  	"properties": {
+  		"title": {
+  			"type": "string",
+  			"title": "The title of this module",
+  			"description": "The title this json document is associated with",
+  			"minLength": 1
+  		},
+  		"desc": {
+  			"type": "string"
+  		},
+  		"license": {
+  			"type": "string"
+  		},
+  		"author": {
+  			"type": "string"
+  		},
+  		"organization": {
+  			"type": "string"
+  		},
+  		"version": {
+  			"type": "string"
+  		},
+  		"copyright": {
+  			"type": "string"
+  		},
+  		"url": {
+  			"type": "string"
+  		},
+  		"ogl-lines": {
+  			"type": "array",
+  			"items": {
+  				"type": "string"
+  			}
+  		},
+  		"creatures": {
+  			"$ref": "https://github.com/Swimminschrage/5e-schema/creatures.json"
+  		},
+  		"chapters": {
+  			"type": "array",
+  			"items": {
+  				"type": "object",
+  				"properties": {
+  					"title": {
+  						"type": "string"
+  					},
+  					"desc": {
+  						"type": "string"
+  					},
+  					"encounters": {
+  						"type": "array",
+  						"items": {
+  							"$ref": "#/definitions/encounter"
+  						}
+  					}
+  				},
+  				"required": [
+  					"title"
+  				]
+  			}
+  		}
+  	},
+  	"required": [
+  		"title",
+  		"license",
+  		"version",
+  		"copyright"
+  	]
+}

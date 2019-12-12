@@ -1,0 +1,439 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Swimminschrage/5e-schema/creature.json",
+  "definitions": {
+    "attribute": {
+      "type": "integer",
+      "title": "Any attribute definition",
+      "description": "The value of any of the 6 main attributes",
+      "default": 0,
+      "minimum": 0,
+      "examples": [
+        21,
+        8,
+        15
+      ]
+    },
+    "skill": {
+      "title": "Skill Modifier",
+      "description": "The modifier for any skills",
+      "type": "integer",
+      "default": 0
+    },
+    "dice": {
+      "type": "object",
+      "properties": {
+        "num": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "d": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "+": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "d"
+      ]
+    },
+    "damage": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/dice"
+        },
+        {
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "save": {
+      "type": "object",
+      "properties": {
+        "attribute": {
+          "type": "string",
+          "enum": [
+            "strength",
+            "dexterity",
+            "constitution",
+            "wisdom",
+            "intelligence",
+            "charisma"
+          ]
+        },
+        "dc": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "consequence": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "$ref": "#/definitions/damage"
+            }
+          ]
+        }
+      },
+      "required": [
+        "attribute",
+        "dc"
+      ]
+    },
+    "hit": {
+      "type": "object",
+      "properties": {
+        "bonus": {
+          "type": "integer"
+        },
+        "damage": {
+          "$ref": "#/definitions/damage"
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "examples": [
+              "Multiattack"
+            ]
+          },
+          "desc": {
+            "type": "string",
+            "default": "",
+            "examples": [
+              "The aboleth makes three tentacle attacks."
+            ]
+          },
+          "what": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                { "$ref": "#/definitions/hit" },
+                { "$ref": "#/definitions/save" }
+              ]
+            }
+          }
+      },
+      "required": [
+        "name",
+        "desc"
+      ]
+    },
+    "spellcast": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "id",
+    "name",
+    "size",
+    "type",
+    "armor_class",
+    "hit_points",
+    "speed",
+    "strength",
+    "dexterity",
+    "constitution",
+    "intelligence",
+    "wisdom",
+    "charisma",
+    "challenge_rating"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "title": "Creature Identifier",
+      "description": "Unique identifier to identify this creature across all modules.",
+      "pattern": "^([a-z\\-\\_\\.])+$"
+    },
+    "name": {
+      "type": "string",
+      "title": "The Name Schema",
+      "default": "",
+      "examples": [
+        "Aboleth"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "size": {
+      "type": "string",
+      "title": "The Size Schema",
+      "default": "",
+      "examples": [
+        "Large"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "type": {
+      "type": "string",
+      "title": "The Type Schema",
+      "default": "",
+      "examples": [
+        "aberration",
+        "humanoid",
+        "demon",
+        "giant"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "subtype": {
+      "type": "string",
+      "title": "The Subtype Schema",
+      "default": "",
+      "examples": [
+        "elf",
+        "dwarf",
+        "goblin"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "alignment": {
+      "$id": "#/properties/alignment",
+      "type": "string"
+    },
+    "armor_class": {
+      "$id": "#/properties/armor_class",
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    },
+    "hit_points": {
+      "$id": "#/properties/hit_points",
+      "type": "integer",
+      "title": "The Hit_points Schema",
+      "default": 1
+    },
+    "hit_dice": {
+      "$ref": "#/definitions/dice"
+    },
+    "speed": {
+      "$id": "#/properties/speed",
+      "type": "array",
+      "title": "The Speed Schema",
+      "items": {
+        "type": "string"
+      }
+    },
+    "strength": {
+      "$ref": "#/definitions/attribute"
+    },
+    "dexterity": {
+      "$ref": "#/definitions/attribute"
+    },
+    "constitution": {
+      "$ref": "#/definitions/attribute"
+    },
+    "intelligence": {
+      "$ref": "#/definitions/attribute"
+    },
+    "wisdom": {
+      "$ref": "#/definitions/attribute"
+    },
+    "charisma": {
+      "$ref": "#/definitions/attribute"
+    },
+    "strength_save": {
+      "$ref": "#/definitions/skill"
+    },
+    "dexterity_save": {
+      "$ref": "#/definitions/skill"
+    },
+    "constitution_save": {
+      "$ref": "#/definitions/skill"
+    },
+    "wisdom_save": {
+      "$ref": "#/definitions/skill"
+    },
+    "intelligence_save": {
+      "$ref": "#/definitions/skill"
+    },
+    "charisma_save": {
+      "$ref": "#/definitions/skill"
+    },
+    "acrobatics": {
+      "$ref": "#/definitions/skill"
+    },
+    "animal_handling": {
+      "$ref": "#/definitions/skill"
+    },
+    "arcana": {
+      "$ref": "#/definitions/skill"
+    },
+    "athletics": {
+      "$ref": "#/definitions/skill"
+    },
+    "deception": {
+      "$ref": "#/definitions/skill"
+    },
+    "history": {
+      "$ref": "#/definitions/skill"
+    },
+    "insight": {
+      "$ref": "#/definitions/skill"
+    },
+    "intimidation": {
+      "$ref": "#/definitions/skill"
+    },
+    "investigation": {
+      "$ref": "#/definitions/skill"
+    },
+    "medicine": {
+      "$ref": "#/definitions/skill"
+    },
+    "nature": {
+      "$ref": "#/definitions/skill"
+    },
+    "perception": {
+      "$ref": "#/definitions/skill"
+    },
+    "performance": {
+      "$ref": "#/definitions/skill"
+    },
+    "persuasion": {
+      "$ref": "#/definitions/skill"
+    },
+    "religion": {
+      "$ref": "#/definitions/skill"
+    },
+    "sleight_of_hand": {
+      "$ref": "#/definitions/skill"
+    },
+    "stealth": {
+      "$ref": "#/definitions/skill"
+    },
+    "survial": {
+      "$ref": "#/definitions/skill"
+    },
+    "damage_vulnerabilities": {
+      "$id": "#/properties/damage_vulnerabilities",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "damage_resistances": {
+      "$id": "#/properties/damage_resistances",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "damage_immunities": {
+      "$id": "#/properties/damage_immunities",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "condition_immunities": {
+      "$id": "#/properties/condition_immunities",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "senses": {
+      "$id": "#/properties/senses",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "languages": {
+      "$id": "#/properties/languages",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "challenge_rating": {
+      "$id": "#/properties/challenge_rating",
+      "type": "number"
+    },
+    "spells": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/spellcast"
+      }
+    },
+    "special_abilities": {
+      "$id": "#/properties/special_abilities",
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/event"
+          }
+        ]
+      }
+    },
+    "actions": {
+      "$id": "#/properties/actions",
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/event"
+          }
+        ]
+      }
+    },
+    "reactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "allOf": [
+          {
+            "$ref": "#/definitions/event"
+          }
+        ]
+      }
+    },
+    "legendary_desc": {
+      "$id": "#/properties/legendary_desc",
+      "type": "string",
+      "examples": [
+        "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The aboleth regains spent legendary actions at the start of its turn."
+      ],
+      "pattern": "^(.*)$"
+    },
+    "legendary_actions": {
+      "$id": "#/properties/legendary_actions",
+      "type": "array",
+      "title": "The Legendary_actions Schema",
+      "items": {
+        "$id": "#/properties/legendary_actions/items",
+        "type": "object",
+        "allOf": [
+          {
+            "$ref": "#/definitions/event"
+          }
+        ]
+      }
+    },
+    "armor_desc": {
+      "$id": "#/properties/armor_desc",
+      "type": "string",
+      "title": "The Armor_desc Schema"
+    }
+  }
+}

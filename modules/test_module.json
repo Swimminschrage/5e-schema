@@ -1,0 +1,108 @@
+{
+	"title": "Test Module with Encounters",
+	"license": "",
+	"version": "1.0",
+	"copyright": "",
+	"creatures": [
+		{
+            "name": "Buff Skeleton",
+            "size": "Medium",
+            "type": "undead",
+            "alignment": "lawful evil",
+            "armor_desc": "full armor",
+            "hit_points": 50,
+            "strength": 17,
+            "dexterity": 14,
+            "constitution": 15,
+            "intelligence": 6,
+            "wisdom": 8,
+            "charisma": 5,
+            "armor_class": 16,
+            "condition_immunities": [
+                "poisoned"
+            ],
+            "speed": [
+                "30 ft."
+            ],
+            "languages": [
+                "understands all languages it spoke in life but can't speak"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "id": "buff_skeleton",
+            "challenge_rating": 1,
+            "actions": [
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "what": []
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "what": []
+                }
+            ]
+        }
+	],
+	"chapters": [
+		{
+			"title": "Chapter 1",
+			"desc": "Description for Chapter 1",
+			"encounters": [
+				{
+					"name": "Some Cute Cultists",
+					"desc": "They're ready to brawl",
+					"participants": [
+						{
+							"creature_id": "cultist",
+							"quantity": 4
+						},
+						{
+							"creature_id": "cultist",
+							"quantity": 1,
+							"name": "Boss Cultist"
+						}
+					]
+				},
+				{
+					"name": "Ambush!!!",
+					"desc": "I think the title is pretty self explainitory\nBut here's some more text.",
+					"participants": [
+						{
+							"creature_id": "djinni",
+							"quantity": 1,
+							"name": "Benny the Genni"
+						},
+						{
+							"creature_id": "dire_wolf",
+							"quantity": 3,
+							"name": "The Pet"							
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "The Last Chapter",
+			"desc": "Some more chapter description here.\n\nAlong with some more text.",
+			"encounters": [
+				{
+					"name": "The Undead",
+					"desc": "They're ready to crawl",
+					"participants": [
+						{
+							"creature_id": "buff_skeleton",
+							"quantity": 6
+						},
+						{
+							"creature_id": "minotaur_skeleton",
+							"quantity": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+  	"$id": "https://github.com/Swimminschrage/5e-schema/creatures.json",
+  	"type": "array",
+  	"items": {
+  		"$ref": "https://github.com/Swimminschrage/5e-schema/creature.json"
+  	}
+}
