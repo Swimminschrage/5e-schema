@@ -80,5 +80,6 @@
                 "desc": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes."
             }
         ],
-        "armor_desc": "natural armor"
+        "armor_desc": "natural armor",
+        "unique": true
     }

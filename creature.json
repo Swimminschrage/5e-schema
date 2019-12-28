@@ -434,6 +434,13 @@
       "$id": "#/properties/armor_desc",
       "type": "string",
       "title": "The Armor_desc Schema"
+    },
+    "unique": {
+      "$id": "#/properties/unique",
+      "type": "boolean",
+      "title": "Used in Random Encounters",
+      "description": "True if this creature should be used for generating random encounters, false if this creature is unique to a module.",
+      "default": false
     }
   }
 }
