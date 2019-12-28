@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-  	"$id": "https://github.com/Swimminschrage/5e-schema/module.json",
+  	"$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/module.json",
   	"definitions": {
   		"participant": {
   			"type": "object",
@@ -79,7 +79,7 @@
   			}
   		},
   		"creatures": {
-  			"$ref": "https://github.com/Swimminschrage/5e-schema/creatures.json"
+  			"$ref": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creatures.json"
   		},
   		"chapters": {
   			"type": "array",

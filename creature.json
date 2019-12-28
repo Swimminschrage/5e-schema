@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/Swimminschrage/5e-schema/creature.json",
+  "$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creature.json",
   "definitions": {
     "attribute": {
       "type": "integer",
