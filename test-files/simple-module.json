@@ -1,0 +1,24 @@
+{
+  "title": "Test Module with Encounters",
+  "license": "Test License",
+  "version": "1.0",
+  "copyright": "Test Copyright",
+  "chapters": [
+    {
+      "title": "Empty Chapter"
+    },
+    {
+      "title": "Single encounter",
+      "encounters": [
+        {
+          "name": "Test Encounter",
+          "participants": [
+            {
+              "creature_id": "test_creature"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
