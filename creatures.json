@@ -2,6 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
   	"$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creatures.json",
   	"type": "array",
+  	"title": "Creatures",
   	"items": {
   		"$ref": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creature.json"
   	}

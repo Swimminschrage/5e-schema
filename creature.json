@@ -210,13 +210,13 @@
   "properties": {
     "id": {
       "type": "string",
-      "title": "Creature Identifier",
+      "title": "Identifier",
       "description": "Unique identifier to identify this creature across all modules.",
       "pattern": "^([a-z\\-\\_\\.])+$"
     },
     "name": {
       "type": "string",
-      "title": "The Name Schema",
+      "title": "Name",
       "default": "",
       "examples": [
         "Aboleth"
@@ -225,7 +225,7 @@
     },
     "size": {
       "type": "string",
-      "title": "The Size Schema",
+      "title": "Size",
       "default": "",
       "examples": [
         "Large"
@@ -234,7 +234,7 @@
     },
     "type": {
       "type": "string",
-      "title": "The Type Schema",
+      "title": "Creature Type",
       "default": "",
       "examples": [
         "aberration",
@@ -246,7 +246,7 @@
     },
     "subtype": {
       "type": "string",
-      "title": "The Subtype Schema",
+      "title": "Creature Subtype",
       "default": "",
       "examples": [
         "elf",
@@ -257,10 +257,14 @@
     },
     "alignment": {
       "$id": "#/properties/alignment",
-      "type": "string"
+      "type": "string",
+      "title": "Alignment",
+      "description": "The creatue's alignment (if any)."
     },
     "armor_class": {
       "$id": "#/properties/armor_class",
+      "title": "Armor Class",
+      "description": "The creature's AC as an integer",
       "type": "integer",
       "minimum": 0,
       "default": 0
@@ -268,111 +272,152 @@
     "hit_points": {
       "$id": "#/properties/hit_points",
       "type": "integer",
-      "title": "The Hit_points Schema",
+      "title": "Hit Points",
+      "description": "The creature's hit point max",
       "default": 1
     },
     "hit_dice": {
+      "title": "The creature's hit dice (for determining random HP maxes).",
       "$ref": "#/definitions/dice"
     },
     "speed": {
       "$id": "#/properties/speed",
       "type": "array",
-      "title": "The Speed Schema",
+      "title": "Speeds",
+      "description": "An array of strings representing the various speeds this creature can have.",
       "items": {
         "type": "string"
       }
     },
     "strength": {
+      "title": "Strength",
+      "description": "The creature's Strength score",
       "$ref": "#/definitions/attribute"
     },
     "dexterity": {
+      "title": "Dexterity",
+      "description": "The creature's Dexterity score",
       "$ref": "#/definitions/attribute"
     },
     "constitution": {
+      "title": "Constitution",
+      "description": "The creature's Constitution score",
       "$ref": "#/definitions/attribute"
     },
     "intelligence": {
+      "title": "Intelligence",
+      "description": "The creature's Intelligence score",
       "$ref": "#/definitions/attribute"
     },
     "wisdom": {
+      "title": "Wisdom",
+      "description": "The creature's Wisdom score",
       "$ref": "#/definitions/attribute"
     },
     "charisma": {
+      "title": "Charisma",
+      "description": "The creature's Charisma score",
       "$ref": "#/definitions/attribute"
     },
     "strength_save": {
+      "title": "Strength Save",
       "$ref": "#/definitions/skill"
     },
     "dexterity_save": {
+      "title": "Dexterity Save",
       "$ref": "#/definitions/skill"
     },
     "constitution_save": {
+      "title": "Constitution Save",
       "$ref": "#/definitions/skill"
     },
     "wisdom_save": {
+      "title": "Wisdom Save",
       "$ref": "#/definitions/skill"
     },
     "intelligence_save": {
+      "title": "Intelligence Save",
       "$ref": "#/definitions/skill"
     },
     "charisma_save": {
+      "title": "Charisma Save",
       "$ref": "#/definitions/skill"
     },
     "acrobatics": {
+      "title": "Acrobatics",
       "$ref": "#/definitions/skill"
     },
     "animal_handling": {
+      "title": "Animal Handling",
       "$ref": "#/definitions/skill"
     },
     "arcana": {
+      "title": "Arcana",
       "$ref": "#/definitions/skill"
     },
     "athletics": {
+      "title": "Athletics",
       "$ref": "#/definitions/skill"
     },
     "deception": {
+      "title": "Deception",
       "$ref": "#/definitions/skill"
     },
     "history": {
+      "title": "History",
       "$ref": "#/definitions/skill"
     },
     "insight": {
+      "title": "Insight",
       "$ref": "#/definitions/skill"
     },
     "intimidation": {
+      "title": "Intimidation",
       "$ref": "#/definitions/skill"
     },
     "investigation": {
+      "title": "Investigation",
       "$ref": "#/definitions/skill"
     },
     "medicine": {
+      "title": "Medicine",
       "$ref": "#/definitions/skill"
     },
     "nature": {
+      "title": "Nature",
       "$ref": "#/definitions/skill"
     },
     "perception": {
+      "title": "Perception",
       "$ref": "#/definitions/skill"
     },
     "performance": {
+      "title": "Performance",
       "$ref": "#/definitions/skill"
     },
     "persuasion": {
+      "title": "Persuasion",
       "$ref": "#/definitions/skill"
     },
     "religion": {
+      "title": "Religion",
       "$ref": "#/definitions/skill"
     },
     "sleight_of_hand": {
+      "title": "Sleight of Hand",
       "$ref": "#/definitions/skill"
     },
     "stealth": {
+      "title": "Stealth",
       "$ref": "#/definitions/skill"
     },
     "survial": {
+      "title": "Survial",
       "$ref": "#/definitions/skill"
     },
     "damage_vulnerabilities": {
+      "title": "Damage Vulnerabilities",
+      "description": "Array of strings listing the types of damage that this creature is vulnerable to (takes double damage).",
       "$id": "#/properties/damage_vulnerabilities",
       "type": "array",
       "items": {
@@ -380,6 +425,8 @@
       }
     },
     "damage_resistances": {
+      "title": "Damage Resistances",
+      "description": "Array of strings listing the types of damage that this creature has a resistance to (takes half damage).",
       "$id": "#/properties/damage_resistances",
       "type": "array",
       "items": {
@@ -387,6 +434,8 @@
       }
     },
     "damage_immunities": {
+      "title": "Damage Immunities",
+      "description": "Array of strings listing the types of damage that this creature is immune to (takes no damage from).",
       "$id": "#/properties/damage_immunities",
       "type": "array",
       "items": {
@@ -394,6 +443,8 @@
       }
     },
     "condition_immunities": {
+      "title": "Condition Immunities",
+      "description": "Array of strings listing the status conditions that this creature can not receive.",
       "$id": "#/properties/condition_immunities",
       "type": "array",
       "items": {
@@ -401,6 +452,8 @@
       }
     },
     "senses": {
+      "title": "Senses",
+      "description": "Array of strings listing the types of senses that this creature possesses.",
       "$id": "#/properties/senses",
       "type": "array",
       "items": {
@@ -408,6 +461,8 @@
       }
     },
     "languages": {
+      "title": "Languages",
+      "description": "Array of strings listing the languages that the creature can understand or speak.",
       "$id": "#/properties/languages",
       "type": "array",
       "items": {
@@ -415,16 +470,22 @@
       }
     },
     "challenge_rating": {
+      "title": "Challenge Rating",
+      "description": "The creature's challenge rating",
       "$id": "#/properties/challenge_rating",
       "type": "number"
     },
     "spells": {
+      "title": "Spells",
+      "description": "Array of spells grouped by level or number of times they can be cast.",
       "type": "array",
       "items": {
         "$ref": "#/definitions/spellcast_group"
       }
     },
     "special_abilities": {
+      "title": "Special Abilities",
+      "description": "Array describing this creature's Special Abilities.",
       "$id": "#/properties/special_abilities",
       "type": "array",
       "items": {
@@ -436,6 +497,8 @@
       }
     },
     "actions": {
+      "title": "Actions",
+      "description": "Array describing this creature's available Actions.",
       "$id": "#/properties/actions",
       "type": "array",
       "items": {
@@ -447,6 +510,8 @@
       }
     },
     "reactions": {
+      "title": "Reactions",
+      "description": "Array describing this creature's available reactions.",
       "type": "array",
       "items": {
         "type": "object",
@@ -458,17 +523,19 @@
       }
     },
     "legendary_desc": {
+      "title": "Legendary Actions Description",
+      "description": "Some powerful creatures have Legendary Actions, this string describes the conditions and limitations to using all of the Legendary Actions that the creature possesses.",
       "$id": "#/properties/legendary_desc",
       "type": "string",
       "examples": [
         "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The aboleth regains spent legendary actions at the start of its turn."
-      ],
-      "pattern": "^(.*)$"
+      ]
     },
     "legendary_actions": {
       "$id": "#/properties/legendary_actions",
       "type": "array",
-      "title": "The Legendary_actions Schema",
+      "title": "Legendary Actions",
+      "description": "Array describing this creature's available Legendary Actions.",
       "items": {
         "$id": "#/properties/legendary_actions/items",
         "type": "object",
@@ -482,12 +549,13 @@
     "armor_desc": {
       "$id": "#/properties/armor_desc",
       "type": "string",
-      "title": "The Armor_desc Schema"
+      "title": "Armor Description",
+      "description": "String describing the type of armor this creature possesses (if any)."
     },
     "unique": {
       "$id": "#/properties/unique",
       "type": "boolean",
-      "title": "Used in Random Encounters",
+      "title": "Unique Creature?",
       "description": "True if this creature should be used for generating random encounters, false if this creature is unique to a module.",
       "default": false
     }

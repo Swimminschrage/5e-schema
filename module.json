@@ -1,122 +1,127 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-  	"$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/module.json",
-    "title": "5e Module definition",
-  	"definitions": {
-  		"participant": {
-        "description": "The description for a creature that is involved as a group or is unique to an encounter.",
-  			"type": "object",
-  			"properties": {
-  				"creature_id": {
-            "description": "The 'id' of the creature that is a participant.",
-  					"type": "string"
-  				},
-  				"quantity": {
-            "description": "The number of creatures of the type defined by the 'creature_id' in an encounter.",
-  					"type": "integer",
-  					"minimum": 1,
-            "default": 1
-  				},
-  				"name": {
-  					"type": "string",
-  					"description": "Override for the name associated with the creature from the creature_id. For example, a named NPC.  Leaving blank means to use the name associated with the creature definition."
-  				}
-  			},
-  			"required": [
-  				"creature_id"
-  			]
-  		},
-  		"encounter": {
-        "description": "A definition for a single encounter made up of a group of creatures.",
-  			"type": "object",
-  			"properties": {
-  				"name": {
-  					"type": "string"
-  				},
-  				"desc": {
-  					"type": "string"
-  				},
-  				"participants": {
-  					"type": "array",
-  					"items": {
-  						"$ref": "#/definitions/participant"
-  					}
-  				}
-  			},
-  			"required": [
-  				"name",
-  				"participants"
-  			]
-  		}
-  	},
-  	"type": "object",
-  	"properties": {
-  		"title": {
-  			"type": "string",
-  			"description": "The title this json definition is associated with.",
-  			"minLength": 1
-  		},
-  		"desc": {
-        "description": "The description of the module this definition is associated with.",
-  			"type": "string"
-  		},
-  		"license": {
-  			"type": "string"
-  		},
-  		"author": {
-        "description": "Authors of the adventure module this module is represents.",
-  			"type": "string"
-  		},
-  		"organization": {
-  			"type": "string"
-  		},
-  		"version": {
-  			"type": "string"
-  		},
-  		"copyright": {
-  			"type": "string"
-  		},
-  		"url": {
-  			"type": "string"
-  		},
-  		"ogl-lines": {
-  			"type": "array",
-  			"items": {
-  				"type": "string"
-  			}
-  		},
-  		"creatures": {
-  			"$ref": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creatures.json"
-  		},
-  		"chapters": {
-        "description": "A module is broken into chapters.  Allows you to group encounters together.",
-  			"type": "array",
-  			"items": {
-  				"type": "object",
-  				"properties": {
-  					"title": {
-  						"type": "string"
-  					},
-  					"desc": {
-  						"type": "string"
-  					},
-  					"encounters": {
-  						"type": "array",
-  						"items": {
-  							"$ref": "#/definitions/encounter"
-  						}
-  					}
-  				},
-  				"required": [
-  					"title"
-  				]
-  			}
-  		}
-  	},
-  	"required": [
-  		"title",
-  		"license",
-  		"version",
-  		"copyright"
-  	]
+	"$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/module.json",
+  "title": "5e Module definition",
+	"definitions": {
+		"participant": {
+      "description": "The description for a creature that is involved as a group or is unique to an encounter.",
+			"type": "object",
+			"properties": {
+				"creature_id": {
+          "description": "The 'id' of the creature that is a participant.",
+					"type": "string"
+				},
+				"quantity": {
+          "description": "The number of creatures of the type defined by the 'creature_id' in an encounter.",
+					"type": "integer",
+					"minimum": 1,
+          "default": 1
+				},
+				"name": {
+					"type": "string",
+					"description": "Override for the name associated with the creature from the creature_id. For example, a named NPC.  Leaving blank means to use the name associated with the creature definition."
+				}
+			},
+			"required": [
+				"creature_id"
+			]
+		},
+		"encounter": {
+      "description": "A definition for a single encounter made up of a group of creatures.",
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"desc": {
+					"type": "string"
+				},
+				"participants": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/participant"
+					}
+				}
+			},
+			"required": [
+				"name",
+				"participants"
+			]
+		}
+	},
+	"type": "object",
+	"properties": {
+		"title": {
+			"title": "Module Title",
+			"type": "string",
+			"description": "The title this json definition is associated with.",
+			"minLength": 1
+		},
+		"desc": {
+			"title": "Description",
+      		"description": "The description of the module this definition is associated with.",
+			"type": "string"
+		},
+		"license": {
+			"type": "string"
+		},
+		"author": {
+			"title": "Author(s)",
+      		"description": "Authors of the adventure module this module is represents.",
+			"type": "string"
+		},
+		"organization": {
+			"type": "string"
+		},
+		"version": {
+			"type": "string"
+		},
+		"copyright": {
+			"type": "string"
+		},
+		"url": {
+			"type": "string"
+		},
+		"ogl-lines": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"creatures": {
+			"$ref": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creatures.json"
+		},
+		"chapters": {
+      "description": "A module is broken into chapters.  Allows you to group encounters together.",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"title": {
+						"title": "Chapter Title",
+						"type": "string"
+					},
+					"desc": {
+						"title": "Chapter Description",
+						"type": "string"
+					},
+					"encounters": {
+						"type": "array",
+						"items": {
+							"$ref": "#/definitions/encounter"
+						}
+					}
+				},
+				"required": [
+					"title"
+				]
+			}
+		}
+	},
+	"required": [
+		"title",
+		"license",
+		"version",
+		"copyright"
+	]
 }
