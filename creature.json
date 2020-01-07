@@ -25,7 +25,8 @@
       "properties": {
         "num": {
           "type": "integer",
-          "minimum": 1
+          "minimum": 1,
+          "default": 1
         },
         "d": {
           "type": "integer",
@@ -37,6 +38,22 @@
       },
       "required": [
         "d"
+      ],
+      "examples": [
+        {
+          "num": 5,
+          "d": 6,
+          "+": 2
+        },
+        {
+          "d": 12,
+          "+": 4
+        },
+        {
+          "num": 3,
+          "d": 4,
+          "+": -1
+        }
       ]
     },
     "damage": {
@@ -51,6 +68,19 @@
               "type": "string"
             }
           }
+        }
+      ],
+      "examples": [
+        {
+          "num": 3,
+          "d": 4,
+          "+": -1,
+          "type": "piercing"
+        },
+        {
+          "d": 4,
+          "+": 2,
+          "type": "fire"
         }
       ]
     },
@@ -87,6 +117,23 @@
       "required": [
         "attribute",
         "dc"
+      ],
+      "examples": [
+        {
+          "attribute": "strength",
+          "dc": 15,
+          "consequence": {
+            "num": 3,
+            "d": 4,
+            "+": -1,
+            "type": "piercing"
+          }
+        },
+        {
+          "attribute": "constitution",
+          "dc": 15,
+          "consequence": "Something bad happens to you."
+        }
       ]
     },
     "hit": {
@@ -259,7 +306,12 @@
       "$id": "#/properties/alignment",
       "type": "string",
       "title": "Alignment",
-      "description": "The creatue's alignment (if any)."
+      "description": "The creatue's alignment (if any).",
+      "examples": [
+        "lawful evil",
+        "unaligned",
+        "chaotic good"
+      ]
     },
     "armor_class": {
       "$id": "#/properties/armor_class",
@@ -514,7 +566,6 @@
       "description": "Array describing this creature's available reactions.",
       "type": "array",
       "items": {
-        "type": "object",
         "allOf": [
           {
             "$ref": "#/definitions/event"
@@ -537,8 +588,6 @@
       "title": "Legendary Actions",
       "description": "Array describing this creature's available Legendary Actions.",
       "items": {
-        "$id": "#/properties/legendary_actions/items",
-        "type": "object",
         "allOf": [
           {
             "$ref": "#/definitions/event"
