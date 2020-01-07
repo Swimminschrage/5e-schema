@@ -21,6 +21,7 @@
       "default": 0
     },
     "dice": {
+      "title": "Dice Roll",
       "type": "object",
       "properties": {
         "num": {
@@ -57,6 +58,7 @@
       ]
     },
     "damage": {
+      "title": "Damage",
       "description": "The definition for damage which is a di(c)e roll along with a damage type",
       "allOf": [
         {
@@ -85,6 +87,7 @@
       ]
     },
     "save": {
+      "title": "Save",
       "description": "A saving throw roll required using one of the six primary attributes along with a DC for the throw.  Includes the consequence which can be a string description or a 'damage' definition",
       "type": "object",
       "properties": {
@@ -137,6 +140,7 @@
       ]
     },
     "hit": {
+      "title": "Hit",
       "description": "When a di(c)e roll is required for hitting a target.  Includes the bonus modifier and the damage.",
       "type": "object",
       "properties": {
@@ -153,6 +157,7 @@
       ]
     },
     "event": {
+      "title": "Event",
       "description": "A definition for a 'thing' a creature can do.  Either as an ability, attack, reaction, etc...",
       "type": "object",
       "properties": {
