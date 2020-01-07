@@ -23,7 +23,7 @@
     "senses": [],
     "id": "acolyte",
     "challenge_rating": 0.25,
-    "spells": [
+    "spellcasting": [
         {
             "name": "Cantrips (at will)",
             "casts": {

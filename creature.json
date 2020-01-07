@@ -154,6 +154,25 @@
       },
       "required": [
         "damage"
+      ],
+      "examples": [
+        {
+          "bonus": 4,
+          "damage": {
+            "num": 3,
+            "d": 4,
+            "+": -1,
+            "type": "piercing"
+          }
+        },
+        {
+          "bonus": -1,
+          "damage": {
+            "d": 6,
+            "+": 3,
+            "type": "fire"
+          }
+        }
       ]
     },
     "event": {
@@ -192,7 +211,7 @@
         "desc"
       ]
     },
-    "spellcast": {
+    "spell": {
       "type": "object",
       "properties": {
         "name": {
@@ -206,6 +225,15 @@
       },
       "required": [
         "name"
+      ],
+      "examples": [
+        {
+          "name": "Fireball",
+          "spell_id": "fireball"
+        },
+        {
+          "name": "Magic Missile"
+        }
       ]
     },
     "spellcast_group": {
@@ -235,10 +263,34 @@
         "spells": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/spellcast"
+            "$ref": "#/definitions/spell"
           }
         }
-      }
+      },
+      "required": [
+        "name",
+        "casts",
+        "spells"
+      ],
+      "examples": [
+        {
+          "name": "Cantrips (At will)",
+          "casts": {
+            "num": -1,
+            "isForEach": true
+          },
+          "spells": [
+            {
+              "name": "Firebolt",
+              "spell_id": "firebolt"
+            },
+            {
+              "name": "Acid Splash",
+              "spell_id": "acid_splash"
+            }
+          ]
+        }
+      ]
     }
   },
   "type": "object",
@@ -532,9 +584,9 @@
       "$id": "#/properties/challenge_rating",
       "type": "number"
     },
-    "spells": {
-      "title": "Spells",
-      "description": "Array of spells grouped by level or number of times they can be cast.",
+    "spellcasting": {
+      "title": "Spellcasting",
+      "description": "Array of spellcast_group's which are spells grouped by level or number of times they can be cast.",
       "type": "array",
       "items": {
         "$ref": "#/definitions/spellcast_group"
