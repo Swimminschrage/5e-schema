@@ -40,6 +40,7 @@
       ]
     },
     "damage": {
+      "description": "The definition for damage which is a di(c)e roll along with a damage type",
       "allOf": [
         {
           "$ref": "#/definitions/dice"
@@ -54,6 +55,7 @@
       ]
     },
     "save": {
+      "description": "A saving throw roll required using one of the six primary attributes along with a DC for the throw.  Includes the consequence which can be a string description or a 'damage' definition",
       "type": "object",
       "properties": {
         "attribute": {
@@ -88,17 +90,23 @@
       ]
     },
     "hit": {
+      "description": "When a di(c)e roll is required for hitting a target.  Includes the bonus modifier and the damage.",
       "type": "object",
       "properties": {
         "bonus": {
-          "type": "integer"
+          "type": "integer",
+          "default": 0
         },
         "damage": {
           "$ref": "#/definitions/damage"
         }
-      }
+      },
+      "required": [
+        "damage"
+      ]
     },
     "event": {
+      "description": "A definition for a 'thing' a creature can do.  Either as an ability, attack, reaction, etc...",
       "type": "object",
       "properties": {
         "name": {
@@ -116,13 +124,15 @@
             ]
           },
           "what": {
+            "description": "The definition of the mechanics of event.  Is it something that hits or requires a saving throw (or both).",
             "type": "array",
             "items": {
               "anyOf": [
                 { "$ref": "#/definitions/hit" },
                 { "$ref": "#/definitions/save" }
               ]
-            }
+            },
+            "default": []  
           }
       },
       "required": [
@@ -134,14 +144,53 @@
       "type": "object",
       "properties": {
         "name": {
+          "description": "Title of the spell that can be cast.",
+          "type": "string"
+        },
+        "spell_id": {
+          "description": "Reference to the spell that can be cast.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    },
+    "spellcast_group": {
+      "type": "object",
+      "properties": {
+        "name": {
           "type": "string",
           "minLength": 1
+        },
+        "casts": {
+          "type": "object",
+          "properties": {
+            "num": {
+              "type": "integer",
+              "minimum": -1,
+              "default": -1
+            },
+            "isForEach": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "required": [
+            "num"
+          ]
+        },
+        "spells": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/spellcast"
+          }
         }
       }
     }
   },
   "type": "object",
-  "title": "The Root Schema",
+  "title": "5e Creature definition",
   "required": [
     "id",
     "name",
@@ -372,7 +421,7 @@
     "spells": {
       "type": "array",
       "items": {
-        "$ref": "#/definitions/spellcast"
+        "$ref": "#/definitions/spellcast_group"
       }
     },
     "special_abilities": {

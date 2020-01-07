@@ -1,0 +1,83 @@
+{
+    "name": "Acolyte",
+    "size": "Medium",
+    "type": "humanoid",
+    "subtype": "any race",
+    "alignment": "any alignment",
+    "hit_points": 9,
+    "strength": 10,
+    "dexterity": 10,
+    "constitution": 10,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 11,
+    "armor_class": 10,
+    "medicine": 4,
+    "religion": 2,
+    "speed": [
+        "30 ft."
+    ],
+    "languages": [
+        "any one language (usually Common)"
+    ],
+    "senses": [],
+    "id": "acolyte",
+    "challenge_rating": 0.25,
+    "spells": [
+        {
+            "name": "Cantrips (at will)",
+            "casts": {
+                "num": -1
+            },
+            "spells": [
+                {
+                    "name": "Light",
+                    "spell_id": "light"
+                },
+                {
+                    "name": "Sacred Flame",
+                    "spell_id": "sacred_flame"
+                },
+                {
+                    "name": "Thaumaturgy",
+                    "spell_id": "thaumaturgy"
+                }
+            ]
+        },
+        {
+            "name": "1st Level (3 slots)",
+            "casts": {
+                "num": 3,
+                "isForEach": false
+            },
+            "spells": [
+                {
+                    "name": "Bless",
+                    "spell_id": "bless"
+                },
+                {
+                    "name": "Cure Wounds",
+                    "spell_id": "cure_wounds"
+                },
+                {
+                    "name": "Sanctuary",
+                    "spell_id": "sanctuary"
+                }
+            ]
+        }
+    ],
+    "special_abilities": [
+        {
+            "name": "Spellcasting",
+            "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n\n• Cantrips (at will): light, sacred flame, thaumaturgy\n• 1st level (3 slots): bless, cure wounds, sanctuary",
+            "what": []
+        }
+    ],
+    "actions": [
+        {
+            "name": "Club",
+            "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+            "what": []
+        }
+    ]
+}
