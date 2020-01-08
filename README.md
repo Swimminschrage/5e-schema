@@ -1,6 +1,8 @@
 # 5e-schema
 A JSON schema definition for modules within the 5e of the "worlds greatest role-playing game".
 
+[Visualize it here!](https://swimminschrage.github.io/5e-schema-viewer/)
+
 Contains definitions for the following artifacts:
 - Modules (Entire adventures or supplemental content)
   - Chapters (Breakdown of content in a module)
