@@ -16,6 +16,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The aboleth regains spent legendary actions at the start of its turn.",
             "hit_points": 135,
+            "hit_dice": {
+                "num": 18,
+                "d": 10,
+                "+": 36
+            },
             "strength": 21,
             "dexterity": 9,
             "constitution": 15,
@@ -104,6 +109,10 @@
             "subtype": "any race",
             "alignment": "any alignment",
             "hit_points": 9,
+            "hit_dice": {
+                "num": 2,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 10,
             "constitution": 10,
@@ -145,6 +154,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 195,
+            "hit_dice": {
+                "num": 17,
+                "d": 12,
+                "+": 85
+            },
             "strength": 23,
             "dexterity": 14,
             "constitution": 21,
@@ -245,6 +259,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 225,
+            "hit_dice": {
+                "num": 18,
+                "d": 12,
+                "+": 108
+            },
             "strength": 25,
             "dexterity": 10,
             "constitution": 23,
@@ -340,6 +359,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 172,
+            "hit_dice": {
+                "num": 15,
+                "d": 12,
+                "+": 75
+            },
             "strength": 23,
             "dexterity": 10,
             "constitution": 21,
@@ -437,6 +461,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 212,
+            "hit_dice": {
+                "num": 17,
+                "d": 12,
+                "+": 102
+            },
             "strength": 25,
             "dexterity": 10,
             "constitution": 23,
@@ -543,6 +572,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 184,
+            "hit_dice": {
+                "num": 16,
+                "d": 12,
+                "+": 80
+            },
             "strength": 23,
             "dexterity": 12,
             "constitution": 21,
@@ -639,6 +673,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 256,
+            "hit_dice": {
+                "num": 19,
+                "d": 12,
+                "+": 133
+            },
             "strength": 27,
             "dexterity": 14,
             "constitution": 25,
@@ -746,6 +785,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 207,
+            "hit_dice": {
+                "num": 18,
+                "d": 12,
+                "+": 90
+            },
             "strength": 23,
             "dexterity": 12,
             "constitution": 21,
@@ -852,6 +896,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 256,
+            "hit_dice": {
+                "num": 19,
+                "d": 12,
+                "+": 133
+            },
             "strength": 27,
             "dexterity": 10,
             "constitution": 25,
@@ -947,6 +996,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 243,
+            "hit_dice": {
+                "num": 18,
+                "d": 12,
+                "+": 126
+            },
             "strength": 27,
             "dexterity": 10,
             "constitution": 25,
@@ -1048,6 +1102,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 200,
+            "hit_dice": {
+                "num": 16,
+                "d": 12,
+                "+": 96
+            },
             "strength": 22,
             "dexterity": 10,
             "constitution": 22,
@@ -1147,6 +1206,11 @@
             "type": "elemental",
             "alignment": "neutral",
             "hit_points": 90,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 24
+            },
             "strength": 14,
             "dexterity": 20,
             "constitution": 14,
@@ -1218,6 +1282,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 367,
+            "hit_dice": {
+                "num": 21,
+                "d": 20,
+                "+": 147
+            },
             "strength": 27,
             "dexterity": 14,
             "constitution": 25,
@@ -1318,6 +1387,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 481,
+            "hit_dice": {
+                "num": 26,
+                "d": 20,
+                "+": 208
+            },
             "strength": 29,
             "dexterity": 10,
             "constitution": 27,
@@ -1413,6 +1487,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 297,
+            "hit_dice": {
+                "num": 17,
+                "d": 20,
+                "+": 119
+            },
             "strength": 27,
             "dexterity": 10,
             "constitution": 25,
@@ -1515,6 +1594,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 444,
+            "hit_dice": {
+                "num": 24,
+                "d": 20,
+                "+": 192
+            },
             "strength": 29,
             "dexterity": 10,
             "constitution": 27,
@@ -1621,6 +1705,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 350,
+            "hit_dice": {
+                "num": 20,
+                "d": 20,
+                "+": 140
+            },
             "strength": 27,
             "dexterity": 12,
             "constitution": 25,
@@ -1722,6 +1811,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 546,
+            "hit_dice": {
+                "num": 28,
+                "d": 20,
+                "+": 252
+            },
             "strength": 30,
             "dexterity": 14,
             "constitution": 29,
@@ -1829,6 +1923,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 385,
+            "hit_dice": {
+                "num": 22,
+                "d": 20,
+                "+": 154
+            },
             "strength": 27,
             "dexterity": 12,
             "constitution": 25,
@@ -1935,6 +2034,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 546,
+            "hit_dice": {
+                "num": 28,
+                "d": 20,
+                "+": 252
+            },
             "strength": 30,
             "dexterity": 10,
             "constitution": 29,
@@ -2030,6 +2134,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 487,
+            "hit_dice": {
+                "num": 25,
+                "d": 20,
+                "+": 225
+            },
             "strength": 30,
             "dexterity": 10,
             "constitution": 29,
@@ -2131,6 +2240,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
             "hit_points": 333,
+            "hit_dice": {
+                "num": 18,
+                "d": 20,
+                "+": 144
+            },
             "strength": 26,
             "dexterity": 10,
             "constitution": 26,
@@ -2232,6 +2346,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The sphinx regains spent legendary actions at the start of its turn.",
             "hit_points": 199,
+            "hit_dice": {
+                "num": 19,
+                "d": 10,
+                "+": 95
+            },
             "strength": 22,
             "dexterity": 10,
             "constitution": 20,
@@ -2327,6 +2446,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 33,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 6
+            },
             "strength": 14,
             "dexterity": 11,
             "constitution": 13,
@@ -2388,6 +2512,11 @@
             "alignment": "unaligned",
             "armor_desc": "14 (natural armor), 11 while prone",
             "hit_points": 39,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 6
+            },
             "strength": 17,
             "dexterity": 11,
             "constitution": 13,
@@ -2424,6 +2553,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 6
+            },
             "strength": 16,
             "dexterity": 14,
             "constitution": 14,
@@ -2466,6 +2600,11 @@
             "alignment": "any alignment",
             "armor_desc": "15 with _mage armor_",
             "hit_points": 99,
+            "hit_dice": {
+                "num": 18,
+                "d": 8,
+                "+": 18
+            },
             "strength": 10,
             "dexterity": 14,
             "constitution": 12,
@@ -2520,6 +2659,11 @@
             "alignment": "any non-good alignment",
             "armor_desc": "studded leather",
             "hit_points": 78,
+            "hit_dice": {
+                "num": 12,
+                "d": 8,
+                "+": 24
+            },
             "strength": 11,
             "dexterity": 16,
             "constitution": 14,
@@ -2586,6 +2730,10 @@
             "type": "plant",
             "alignment": "unaligned",
             "hit_points": 10,
+            "hit_dice": {
+                "num": 3,
+                "d": 6
+            },
             "strength": 3,
             "dexterity": 8,
             "constitution": 11,
@@ -2627,6 +2775,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 59,
+            "hit_dice": {
+                "num": 7,
+                "d": 12,
+                "+": 14
+            },
             "strength": 19,
             "dexterity": 6,
             "constitution": 15,
@@ -2668,6 +2821,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 14,
             "dexterity": 12,
             "constitution": 12,
@@ -2696,6 +2854,11 @@
             "alignment": "lawful neutral",
             "armor_desc": "natural armor, shield",
             "hit_points": 39,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 12
+            },
             "strength": 17,
             "dexterity": 12,
             "constitution": 15,
@@ -2750,6 +2913,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 3,
+            "hit_dice": {
+                "num": 1,
+                "d": 6
+            },
             "strength": 8,
             "dexterity": 14,
             "constitution": 11,
@@ -2785,6 +2952,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 3,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": 1
+            },
             "strength": 4,
             "dexterity": 11,
             "constitution": 12,
@@ -2824,6 +2996,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 262,
+            "hit_dice": {
+                "num": 21,
+                "d": 12,
+                "+": 126
+            },
             "strength": 26,
             "dexterity": 15,
             "constitution": 22,
@@ -2919,6 +3096,11 @@
             "alignment": "any non-lawful alignment",
             "armor_desc": "leather armor",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 11,
             "dexterity": 12,
             "constitution": 12,
@@ -2956,6 +3138,11 @@
             "alignment": "any non-lawful alignment",
             "armor_desc": "studded leather",
             "hit_points": 65,
+            "hit_dice": {
+                "num": 10,
+                "d": 8,
+                "+": 20
+            },
             "strength": 15,
             "dexterity": 16,
             "constitution": 14,
@@ -3010,6 +3197,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 110,
+            "hit_dice": {
+                "num": 13,
+                "d": 8,
+                "+": 52
+            },
             "strength": 16,
             "dexterity": 17,
             "constitution": 18,
@@ -3095,6 +3287,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 16
+            },
             "strength": 16,
             "dexterity": 8,
             "constitution": 15,
@@ -3131,6 +3328,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 2,
             "dexterity": 15,
             "constitution": 8,
@@ -3175,6 +3377,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 16
+            },
             "strength": 16,
             "dexterity": 15,
             "constitution": 15,
@@ -3251,6 +3458,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 168,
+            "hit_dice": {
+                "num": 16,
+                "d": 12,
+                "+": 64
+            },
             "strength": 23,
             "dexterity": 16,
             "constitution": 18,
@@ -3311,6 +3523,11 @@
             "alignment": "any chaotic alignment",
             "armor_desc": "hide armor",
             "hit_points": 67,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 27
+            },
             "strength": 16,
             "dexterity": 12,
             "constitution": 17,
@@ -3349,6 +3566,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 6
+            },
             "strength": 15,
             "dexterity": 10,
             "constitution": 14,
@@ -3395,6 +3617,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 33,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 6
+            },
             "strength": 15,
             "dexterity": 14,
             "constitution": 13,
@@ -3450,6 +3677,11 @@
             "type": "ooze",
             "alignment": "unaligned",
             "hit_points": 85,
+            "hit_dice": {
+                "num": 10,
+                "d": 10,
+                "+": 30
+            },
             "strength": 16,
             "dexterity": 5,
             "constitution": 16,
@@ -3518,6 +3750,11 @@
             "type": "fey",
             "alignment": "lawful good",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 4,
+                "d": 8,
+                "+": 4
+            },
             "strength": 12,
             "dexterity": 17,
             "constitution": 12,
@@ -3563,6 +3800,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 7,
+            "hit_dice": {
+                "num": 2,
+                "d": 6
+            },
             "strength": 6,
             "dexterity": 14,
             "constitution": 10,
@@ -3605,6 +3846,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 16
+            },
             "strength": 17,
             "dexterity": 10,
             "constitution": 15,
@@ -3654,6 +3900,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 13,
             "dexterity": 11,
             "constitution": 12,
@@ -3695,6 +3946,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 142,
+            "hit_dice": {
+                "num": 15,
+                "d": 10,
+                "+": 60
+            },
             "strength": 18,
             "dexterity": 16,
             "constitution": 18,
@@ -3785,6 +4041,11 @@
             "alignment": "chaotic good",
             "armor_desc": "natural armor",
             "hit_points": 16,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 3
+            },
             "strength": 15,
             "dexterity": 10,
             "constitution": 13,
@@ -3834,6 +4095,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 32,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 10
+            },
             "strength": 17,
             "dexterity": 10,
             "constitution": 15,
@@ -3890,6 +4156,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 34,
+            "hit_dice": {
+                "num": 4,
+                "d": 10,
+                "+": 12
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 16,
@@ -3938,6 +4209,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "hide armor, shield",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 5
+            },
             "strength": 15,
             "dexterity": 14,
             "constitution": 13,
@@ -3991,6 +4267,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 94,
+            "hit_dice": {
+                "num": 9,
+                "d": 10,
+                "+": 45
+            },
             "strength": 19,
             "dexterity": 11,
             "constitution": 21,
@@ -4035,6 +4316,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 15,
+            "hit_dice": {
+                "num": 2,
+                "d": 10,
+                "+": 4
+            },
             "strength": 16,
             "dexterity": 8,
             "constitution": 14,
@@ -4062,6 +4348,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 2,
+            "hit_dice": {
+                "num": 1,
+                "d": 4
+            },
             "strength": 3,
             "dexterity": 15,
             "constitution": 10,
@@ -4099,6 +4389,11 @@
             "type": "monstrosity",
             "alignment": "neutral good",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 12
+            },
             "strength": 18,
             "dexterity": 14,
             "constitution": 14,
@@ -4157,6 +4452,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 85,
+            "hit_dice": {
+                "num": 10,
+                "d": 8,
+                "+": 40
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 18,
@@ -4233,6 +4533,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 114,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 48
+            },
             "strength": 19,
             "dexterity": 11,
             "constitution": 19,
@@ -4288,6 +4593,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 93,
+            "hit_dice": {
+                "num": 11,
+                "d": 10,
+                "+": 33
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 16,
@@ -4351,6 +4661,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 133,
+            "hit_dice": {
+                "num": 14,
+                "d": 10,
+                "+": 56
+            },
             "strength": 20,
             "dexterity": 9,
             "constitution": 18,
@@ -4437,6 +4752,11 @@
             "alignment": "chaotic neutral",
             "armor_desc": "natural armor",
             "hit_points": 78,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 12
+            },
             "strength": 17,
             "dexterity": 15,
             "constitution": 12,
@@ -4510,6 +4830,11 @@
             "alignment": "neutral good (50%) or neutral evil (50%)",
             "armor_desc": "natural armor",
             "hit_points": 200,
+            "hit_dice": {
+                "num": 16,
+                "d": 12,
+                "+": 96
+            },
             "strength": 27,
             "dexterity": 10,
             "constitution": 22,
@@ -4567,6 +4892,11 @@
             "type": "monstrosity",
             "alignment": "unaligned",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 6,
+                "d": 6,
+                "+": 6
+            },
             "strength": 6,
             "dexterity": 12,
             "constitution": 12,
@@ -4598,6 +4928,10 @@
             "subtype": "any race",
             "alignment": "any alignment",
             "hit_points": 4,
+            "hit_dice": {
+                "num": 1,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 10,
             "constitution": 10,
@@ -4628,6 +4962,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 2,
+                "d": 10,
+                "+": 2
+            },
             "strength": 15,
             "dexterity": 14,
             "constitution": 12,
@@ -4664,6 +5003,11 @@
             "alignment": "chaotic good",
             "armor_desc": "natural armor",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 4,
+                "d": 8,
+                "+": 4
+            },
             "strength": 15,
             "dexterity": 12,
             "constitution": 13,
@@ -4713,6 +5057,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 97,
+            "hit_dice": {
+                "num": 13,
+                "d": 8,
+                "+": 39
+            },
             "strength": 16,
             "dexterity": 20,
             "constitution": 17,
@@ -4786,6 +5135,10 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 2,
+            "hit_dice": {
+                "num": 1,
+                "d": 4
+            },
             "strength": 2,
             "dexterity": 11,
             "constitution": 10,
@@ -4825,6 +5178,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 15,
             "dexterity": 10,
             "constitution": 13,
@@ -4863,6 +5221,11 @@
             "alignment": "any non-good alignment",
             "armor_desc": "leather armor",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 6
+            },
             "strength": 11,
             "dexterity": 14,
             "constitution": 12,
@@ -4915,6 +5278,10 @@
             "alignment": "any non-good alignment",
             "armor_desc": "leather armor",
             "hit_points": 9,
+            "hit_dice": {
+                "num": 2,
+                "d": 8
+            },
             "strength": 11,
             "dexterity": 12,
             "constitution": 10,
@@ -4954,6 +5321,11 @@
             "type": "monstrosity",
             "alignment": "unaligned",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 6,
+                "+": 5
+            },
             "strength": 16,
             "dexterity": 12,
             "constitution": 13,
@@ -5002,6 +5374,11 @@
             "type": "monstrosity",
             "alignment": "neutral evil",
             "hit_points": 39,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 12
+            },
             "strength": 15,
             "dexterity": 14,
             "constitution": 14,
@@ -5047,6 +5424,11 @@
             "alignment": "neutral good",
             "armor_desc": "chain shirt",
             "hit_points": 16,
+            "hit_dice": {
+                "num": 3,
+                "d": 6,
+                "+": 6
+            },
             "strength": 15,
             "dexterity": 14,
             "constitution": 14,
@@ -5106,6 +5488,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 4,
+            "hit_dice": {
+                "num": 1,
+                "d": 8
+            },
             "strength": 11,
             "dexterity": 16,
             "constitution": 11,
@@ -5134,6 +5520,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 136,
+            "hit_dice": {
+                "num": 16,
+                "d": 8,
+                "+": 64
+            },
             "strength": 18,
             "dexterity": 18,
             "constitution": 18,
@@ -5216,6 +5607,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 37,
+            "hit_dice": {
+                "num": 5,
+                "d": 10,
+                "+": 10
+            },
             "strength": 17,
             "dexterity": 15,
             "constitution": 15,
@@ -5258,6 +5654,11 @@
             "alignment": "chaotic good",
             "armor_desc": "natural armor",
             "hit_points": 161,
+            "hit_dice": {
+                "num": 14,
+                "d": 10,
+                "+": 84
+            },
             "strength": 21,
             "dexterity": 15,
             "constitution": 22,
@@ -5326,6 +5727,11 @@
             "subtype": "shapechanger",
             "alignment": "unaligned",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 16
+            },
             "strength": 11,
             "dexterity": 18,
             "constitution": 14,
@@ -5390,6 +5796,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 18,
             "dexterity": 10,
             "constitution": 12,
@@ -5418,6 +5829,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 341,
+            "hit_dice": {
+                "num": 22,
+                "d": 20,
+                "+": 110
+            },
             "strength": 25,
             "dexterity": 10,
             "constitution": 20,
@@ -5486,6 +5902,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 18,
+            "hit_dice": {
+                "num": 4,
+                "d": 6,
+                "+": 4
+            },
             "strength": 11,
             "dexterity": 11,
             "constitution": 12,
@@ -5546,6 +5967,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 123,
+            "hit_dice": {
+                "num": 13,
+                "d": 10,
+                "+": 52
+            },
             "strength": 16,
             "dexterity": 16,
             "constitution": 18,
@@ -5626,6 +6052,10 @@
             "alignment": "neutral evil",
             "armor_desc": "chain shirt",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 3,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 14,
             "constitution": 10,
@@ -5685,6 +6115,11 @@
             "alignment": "any alignment",
             "armor_desc": "16 with _barkskin_",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 5
+            },
             "strength": 10,
             "dexterity": 12,
             "constitution": 13,
@@ -5726,6 +6161,10 @@
             "alignment": "neutral",
             "armor_desc": "16 with _barkskin_",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 12,
             "constitution": 11,
@@ -5790,6 +6229,11 @@
             "alignment": "lawful evil",
             "armor_desc": "scale mail, shield",
             "hit_points": 26,
+            "hit_dice": {
+                "num": 4,
+                "d": 8,
+                "+": 8
+            },
             "strength": 14,
             "dexterity": 11,
             "constitution": 14,
@@ -5853,6 +6297,10 @@
             "type": "elemental",
             "alignment": "neutral evil",
             "hit_points": 17,
+            "hit_dice": {
+                "num": 5,
+                "d": 6
+            },
             "strength": 5,
             "dexterity": 14,
             "constitution": 10,
@@ -5917,6 +6365,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 3,
+            "hit_dice": {
+                "num": 1,
+                "d": 6
+            },
             "strength": 6,
             "dexterity": 15,
             "constitution": 10,
@@ -5954,6 +6406,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 126,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 60
+            },
             "strength": 20,
             "dexterity": 8,
             "constitution": 20,
@@ -6021,6 +6478,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 200,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 112
+            },
             "strength": 22,
             "dexterity": 12,
             "constitution": 24,
@@ -6088,6 +6550,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 76,
+            "hit_dice": {
+                "num": 8,
+                "d": 12,
+                "+": 24
+            },
             "strength": 22,
             "dexterity": 9,
             "constitution": 17,
@@ -6127,6 +6594,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 2,
+                "d": 10,
+                "+": 2
+            },
             "strength": 16,
             "dexterity": 10,
             "constitution": 12,
@@ -6168,6 +6640,11 @@
             "alignment": "lawful evil",
             "armor_desc": "plate",
             "hit_points": 153,
+            "hit_dice": {
+                "num": 18,
+                "d": 8,
+                "+": 72
+            },
             "strength": 18,
             "dexterity": 16,
             "constitution": 18,
@@ -6253,6 +6730,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 44,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 8
+            },
             "strength": 14,
             "dexterity": 15,
             "constitution": 13,
@@ -6324,6 +6806,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 85,
+            "hit_dice": {
+                "num": 10,
+                "d": 10,
+                "+": 30
+            },
             "strength": 21,
             "dexterity": 8,
             "constitution": 17,
@@ -6380,6 +6867,11 @@
             "type": "elemental",
             "alignment": "neutral",
             "hit_points": 102,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 36
+            },
             "strength": 10,
             "dexterity": 17,
             "constitution": 16,
@@ -6454,6 +6946,11 @@
             "alignment": "lawful evil",
             "armor_desc": "plate",
             "hit_points": 162,
+            "hit_dice": {
+                "num": 13,
+                "d": 12,
+                "+": 78
+            },
             "strength": 25,
             "dexterity": 9,
             "constitution": 23,
@@ -6501,6 +6998,11 @@
             "type": "construct",
             "alignment": "neutral",
             "hit_points": 93,
+            "hit_dice": {
+                "num": 11,
+                "d": 8,
+                "+": 44
+            },
             "strength": 19,
             "dexterity": 9,
             "constitution": 18,
@@ -6585,6 +7087,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 5,
+            "hit_dice": {
+                "num": 2,
+                "d": 4
+            },
             "strength": 4,
             "dexterity": 18,
             "constitution": 11,
@@ -6624,6 +7130,10 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 17,
+            "hit_dice": {
+                "num": 5,
+                "d": 6
+            },
             "strength": 12,
             "dexterity": 15,
             "constitution": 11,
@@ -6680,6 +7190,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 1,
             "dexterity": 13,
             "constitution": 8,
@@ -6718,6 +7233,11 @@
             "alignment": "neutral evil",
             "armor_desc": "patchwork armor",
             "hit_points": 138,
+            "hit_dice": {
+                "num": 12,
+                "d": 12,
+                "+": 60
+            },
             "strength": 23,
             "dexterity": 9,
             "constitution": 21,
@@ -6766,6 +7286,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 21
+            },
             "strength": 15,
             "dexterity": 11,
             "constitution": 16,
@@ -6829,6 +7354,11 @@
             "type": "ooze",
             "alignment": "unaligned",
             "hit_points": 84,
+            "hit_dice": {
+                "num": 8,
+                "d": 10,
+                "+": 40
+            },
             "strength": 14,
             "dexterity": 3,
             "constitution": 20,
@@ -6883,6 +7413,10 @@
             "type": "undead",
             "alignment": "chaotic evil",
             "hit_points": 36,
+            "hit_dice": {
+                "num": 8,
+                "d": 8
+            },
             "strength": 16,
             "dexterity": 17,
             "constitution": 10,
@@ -6938,6 +7472,10 @@
             "type": "undead",
             "alignment": "any alignment",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 10,
+                "d": 8
+            },
             "strength": 7,
             "dexterity": 13,
             "constitution": 10,
@@ -7023,6 +7561,10 @@
             "type": "undead",
             "alignment": "chaotic evil",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 8
+            },
             "strength": 13,
             "dexterity": 15,
             "constitution": 10,
@@ -7063,6 +7605,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 157,
+            "hit_dice": {
+                "num": 15,
+                "d": 12,
+                "+": 60
+            },
             "strength": 23,
             "dexterity": 14,
             "constitution": 18,
@@ -7103,6 +7650,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 4
+            },
             "strength": 13,
             "dexterity": 10,
             "constitution": 15,
@@ -7150,6 +7702,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 4,
+                "d": 10
+            },
             "strength": 15,
             "dexterity": 16,
             "constitution": 11,
@@ -7193,6 +7749,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 42,
+            "hit_dice": {
+                "num": 5,
+                "d": 10,
+                "+": 15
+            },
             "strength": 17,
             "dexterity": 10,
             "constitution": 16,
@@ -7233,6 +7794,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 4,
+            "hit_dice": {
+                "num": 1,
+                "d": 6,
+                "+": 1
+            },
             "strength": 5,
             "dexterity": 14,
             "constitution": 12,
@@ -7263,6 +7829,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 60,
+            "hit_dice": {
+                "num": 8,
+                "d": 12,
+                "+": 8
+            },
             "strength": 19,
             "dexterity": 14,
             "constitution": 12,
@@ -7300,6 +7871,10 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 3,
+                "d": 8
+            },
             "strength": 13,
             "dexterity": 15,
             "constitution": 11,
@@ -7339,6 +7914,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 85,
+            "hit_dice": {
+                "num": 9,
+                "d": 12,
+                "+": 27
+            },
             "strength": 21,
             "dexterity": 9,
             "constitution": 17,
@@ -7385,6 +7965,11 @@
             "type": "beast",
             "alignment": "neutral good",
             "hit_points": 26,
+            "hit_dice": {
+                "num": 4,
+                "d": 10,
+                "+": 4
+            },
             "strength": 16,
             "dexterity": 17,
             "constitution": 13,
@@ -7436,6 +8021,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 42,
+            "hit_dice": {
+                "num": 5,
+                "d": 12,
+                "+": 10
+            },
             "strength": 19,
             "dexterity": 16,
             "constitution": 14,
@@ -7483,6 +8073,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 4,
+            "hit_dice": {
+                "num": 1,
+                "d": 6,
+                "+": 1
+            },
             "strength": 8,
             "dexterity": 10,
             "constitution": 12,
@@ -7519,6 +8114,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 18,
+            "hit_dice": {
+                "num": 4,
+                "d": 8
+            },
             "strength": 12,
             "dexterity": 13,
             "constitution": 11,
@@ -7569,6 +8168,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 17,
             "dexterity": 11,
             "constitution": 12,
@@ -7608,6 +8212,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 12
+            },
             "strength": 16,
             "dexterity": 14,
             "constitution": 14,
@@ -7644,6 +8253,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 15,
             "dexterity": 12,
             "constitution": 13,
@@ -7686,6 +8300,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 8,
+                "d": 10,
+                "+": 8
+            },
             "strength": 17,
             "dexterity": 13,
             "constitution": 13,
@@ -7740,6 +8359,11 @@
             "type": "beast",
             "alignment": "neutral",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 13,
             "dexterity": 15,
             "constitution": 12,
@@ -7790,6 +8414,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 10,
             "dexterity": 18,
             "constitution": 13,
@@ -7821,6 +8450,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 7,
+            "hit_dice": {
+                "num": 2,
+                "d": 6
+            },
             "strength": 7,
             "dexterity": 15,
             "constitution": 11,
@@ -7892,6 +8525,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 7,
+                "d": 10,
+                "+": 14
+            },
             "strength": 15,
             "dexterity": 13,
             "constitution": 15,
@@ -7932,6 +8570,10 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 16,
+            "hit_dice": {
+                "num": 3,
+                "d": 10
+            },
             "strength": 12,
             "dexterity": 15,
             "constitution": 11,
@@ -7973,6 +8615,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 126,
+            "hit_dice": {
+                "num": 11,
+                "d": 12,
+                "+": 55
+            },
             "strength": 23,
             "dexterity": 11,
             "constitution": 21,
@@ -8016,6 +8663,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 26,
+            "hit_dice": {
+                "num": 4,
+                "d": 10,
+                "+": 4
+            },
             "strength": 14,
             "dexterity": 16,
             "constitution": 12,
@@ -8070,6 +8722,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 39,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 6
+            },
             "strength": 15,
             "dexterity": 13,
             "constitution": 13,
@@ -8117,6 +8774,11 @@
             "type": "beast",
             "alignment": "neutral evil",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 6
+            },
             "strength": 15,
             "dexterity": 10,
             "constitution": 15,
@@ -8171,6 +8833,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 3,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 14,
             "constitution": 10,
@@ -8200,6 +8866,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 9,
+            "hit_dice": {
+                "num": 2,
+                "d": 8
+            },
             "strength": 11,
             "dexterity": 16,
             "constitution": 10,
@@ -8238,6 +8908,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 12,
             "dexterity": 16,
             "constitution": 13,
@@ -8288,6 +8963,11 @@
             "type": "aberration",
             "alignment": "neutral",
             "hit_points": 67,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 27
+            },
             "strength": 10,
             "dexterity": 8,
             "constitution": 16,
@@ -8345,6 +9025,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 157,
+            "hit_dice": {
+                "num": 15,
+                "d": 10,
+                "+": 75
+            },
             "strength": 20,
             "dexterity": 15,
             "constitution": 21,
@@ -8424,6 +9109,11 @@
             "alignment": "any alignment",
             "armor_desc": "studded leather, shield",
             "hit_points": 112,
+            "hit_dice": {
+                "num": 15,
+                "d": 8,
+                "+": 45
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -8489,6 +9179,10 @@
             "alignment": "chaotic evil",
             "armor_desc": "hide armor, shield",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 8
+            },
             "strength": 14,
             "dexterity": 12,
             "constitution": 11,
@@ -8538,6 +9232,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 4,
+            "hit_dice": {
+                "num": 1,
+                "d": 8
+            },
             "strength": 12,
             "dexterity": 10,
             "constitution": 11,
@@ -8579,6 +9277,10 @@
             "alignment": "neutral evil",
             "armor_desc": "leather armor, shield",
             "hit_points": 7,
+            "hit_dice": {
+                "num": 2,
+                "d": 6
+            },
             "strength": 8,
             "dexterity": 14,
             "constitution": 10,
@@ -8626,6 +9328,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 60,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 24
+            },
             "strength": 19,
             "dexterity": 14,
             "constitution": 17,
@@ -8682,6 +9389,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 114,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 48
+            },
             "strength": 20,
             "dexterity": 11,
             "constitution": 18,
@@ -8732,6 +9444,11 @@
             "type": "ooze",
             "alignment": "unaligned",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 9
+            },
             "strength": 12,
             "dexterity": 6,
             "constitution": 16,
@@ -8794,6 +9511,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 38,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 7
+            },
             "strength": 15,
             "dexterity": 12,
             "constitution": 13,
@@ -8853,6 +9575,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 82,
+            "hit_dice": {
+                "num": 11,
+                "d": 8,
+                "+": 33
+            },
             "strength": 18,
             "dexterity": 12,
             "constitution": 16,
@@ -8934,6 +9661,10 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 6,
+                "d": 8
+            },
             "strength": 14,
             "dexterity": 14,
             "constitution": 11,
@@ -8986,6 +9717,11 @@
             "type": "monstrosity",
             "alignment": "unaligned",
             "hit_points": 59,
+            "hit_dice": {
+                "num": 7,
+                "d": 10,
+                "+": 21
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -9035,6 +9771,11 @@
             "subtype": "grimlock",
             "alignment": "neutral evil",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 16,
             "dexterity": 12,
             "constitution": 12,
@@ -9092,6 +9833,11 @@
             "alignment": "any alignment",
             "armor_desc": "chain shirt, shield",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 13,
             "dexterity": 12,
             "constitution": 12,
@@ -9124,6 +9870,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 127,
+            "hit_dice": {
+                "num": 15,
+                "d": 10,
+                "+": 45
+            },
             "strength": 19,
             "dexterity": 18,
             "constitution": 16,
@@ -9187,6 +9938,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The sphinx regains spent legendary actions at the start of its turn.",
             "hit_points": 136,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 48
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -9278,6 +10034,11 @@
             "alignment": "any alignment",
             "armor_desc": "plate",
             "hit_points": 65,
+            "hit_dice": {
+                "num": 10,
+                "d": 8,
+                "+": 20
+            },
             "strength": 16,
             "dexterity": 13,
             "constitution": 14,
@@ -9335,6 +10096,11 @@
             "type": "monstrosity",
             "alignment": "chaotic evil",
             "hit_points": 38,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 7
+            },
             "strength": 12,
             "dexterity": 13,
             "constitution": 12,
@@ -9381,6 +10147,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": 1
+            },
             "strength": 5,
             "dexterity": 16,
             "constitution": 8,
@@ -9418,6 +10189,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 14
+            },
             "strength": 17,
             "dexterity": 12,
             "constitution": 14,
@@ -9473,6 +10249,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 136,
+            "hit_dice": {
+                "num": 13,
+                "d": 10,
+                "+": 65
+            },
             "strength": 19,
             "dexterity": 17,
             "constitution": 20,
@@ -9550,6 +10331,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 105,
+            "hit_dice": {
+                "num": 10,
+                "d": 12,
+                "+": 40
+            },
             "strength": 21,
             "dexterity": 8,
             "constitution": 19,
@@ -9591,6 +10377,11 @@
             "type": "monstrosity",
             "alignment": "unaligned",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 17,
             "dexterity": 13,
             "constitution": 13,
@@ -9639,6 +10430,11 @@
             "alignment": "lawful evil",
             "armor_desc": "chain mail, shield",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 13,
             "dexterity": 12,
             "constitution": 12,
@@ -9685,6 +10481,10 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 5,
+            "hit_dice": {
+                "num": 2,
+                "d": 4
+            },
             "strength": 4,
             "dexterity": 15,
             "constitution": 11,
@@ -9734,6 +10534,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 148,
+            "hit_dice": {
+                "num": 17,
+                "d": 10,
+                "+": 55
+            },
             "strength": 22,
             "dexterity": 17,
             "constitution": 21,
@@ -9813,6 +10618,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 12
+            },
             "strength": 18,
             "dexterity": 13,
             "constitution": 15,
@@ -9856,6 +10666,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 172,
+            "hit_dice": {
+                "num": 15,
+                "d": 12,
+                "+": 75
+            },
             "strength": 20,
             "dexterity": 12,
             "constitution": 20,
@@ -9914,6 +10729,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 5,
+            "hit_dice": {
+                "num": 1,
+                "d": 8,
+                "+": 1
+            },
             "strength": 11,
             "dexterity": 13,
             "constitution": 12,
@@ -9951,6 +10771,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 180,
+            "hit_dice": {
+                "num": 19,
+                "d": 10,
+                "+": 76
+            },
             "strength": 21,
             "dexterity": 14,
             "constitution": 18,
@@ -10032,6 +10857,10 @@
             "type": "elemental",
             "alignment": "neutral evil",
             "hit_points": 21,
+            "hit_dice": {
+                "num": 6,
+                "d": 6
+            },
             "strength": 7,
             "dexterity": 13,
             "constitution": 10,
@@ -10103,6 +10932,11 @@
             "subtype": "devil",
             "alignment": "lawful evil",
             "hit_points": 10,
+            "hit_dice": {
+                "num": 3,
+                "d": 4,
+                "+": 3
+            },
             "strength": 6,
             "dexterity": 17,
             "constitution": 13,
@@ -10181,6 +11015,11 @@
             "type": "elemental",
             "alignment": "neutral",
             "hit_points": 104,
+            "hit_dice": {
+                "num": 16,
+                "d": 8,
+                "+": 32
+            },
             "strength": 16,
             "dexterity": 19,
             "constitution": 14,
@@ -10253,6 +11092,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 210,
+            "hit_dice": {
+                "num": 20,
+                "d": 10,
+                "+": 100
+            },
             "strength": 24,
             "dexterity": 9,
             "constitution": 20,
@@ -10338,6 +11182,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 3,
+            "hit_dice": {
+                "num": 1,
+                "d": 6
+            },
             "strength": 8,
             "dexterity": 15,
             "constitution": 11,
@@ -10379,6 +11227,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 90,
+            "hit_dice": {
+                "num": 12,
+                "d": 12,
+                "+": 12
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 13,
@@ -10428,6 +11281,11 @@
             "alignment": "any alignment",
             "armor_desc": "plate",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": 16
+            },
             "strength": 16,
             "dexterity": 11,
             "constitution": 14,
@@ -10489,6 +11347,11 @@
             "subtype": "kobold",
             "alignment": "lawful evil",
             "hit_points": 5,
+            "hit_dice": {
+                "num": 2,
+                "d": 6,
+                "+": -2
+            },
             "strength": 7,
             "dexterity": 15,
             "constitution": 9,
@@ -10542,6 +11405,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The kraken can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The kraken regains spent legendary actions at the start of its turn.",
             "hit_points": 472,
+            "hit_dice": {
+                "num": 27,
+                "d": 20,
+                "+": 189
+            },
             "strength": 30,
             "dexterity": 11,
             "constitution": 25,
@@ -10648,6 +11516,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 97,
+            "hit_dice": {
+                "num": 13,
+                "d": 10,
+                "+": 26
+            },
             "strength": 16,
             "dexterity": 13,
             "constitution": 15,
@@ -10707,6 +11580,10 @@
             "subtype": "devil",
             "alignment": "lawful evil",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 3,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 5,
             "constitution": 11,
@@ -10765,6 +11642,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.",
             "hit_points": 135,
+            "hit_dice": {
+                "num": 18,
+                "d": 8,
+                "+": 54
+            },
             "strength": 11,
             "dexterity": 16,
             "constitution": 16,
@@ -10865,6 +11747,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 26,
+            "hit_dice": {
+                "num": 4,
+                "d": 10,
+                "+": 4
+            },
             "strength": 17,
             "dexterity": 15,
             "constitution": 13,
@@ -10921,6 +11808,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 2,
+            "hit_dice": {
+                "num": 1,
+                "d": 4
+            },
             "strength": 2,
             "dexterity": 11,
             "constitution": 10,
@@ -10953,6 +11844,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor, shield",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 4,
+                "d": 8,
+                "+": 4
+            },
             "strength": 15,
             "dexterity": 10,
             "constitution": 13,
@@ -11016,6 +11912,10 @@
             "alignment": "any alignment",
             "armor_desc": "15 with _mage armor_",
             "hit_points": 40,
+            "hit_dice": {
+                "num": 9,
+                "d": 8
+            },
             "strength": 9,
             "dexterity": 14,
             "constitution": 11,
@@ -11057,6 +11957,11 @@
             "type": "elemental",
             "alignment": "neutral evil",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 6,
+                "+": 5
+            },
             "strength": 8,
             "dexterity": 12,
             "constitution": 12,
@@ -11127,6 +12032,11 @@
             "alignment": "chaotic neutral",
             "armor_desc": "natural armor",
             "hit_points": 9,
+            "hit_dice": {
+                "num": 2,
+                "d": 6,
+                "+": 2
+            },
             "strength": 7,
             "dexterity": 15,
             "constitution": 12,
@@ -11180,6 +12090,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 126,
+            "hit_dice": {
+                "num": 11,
+                "d": 12,
+                "+": 55
+            },
             "strength": 24,
             "dexterity": 9,
             "constitution": 21,
@@ -11220,6 +12135,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 68,
+            "hit_dice": {
+                "num": 8,
+                "d": 10,
+                "+": 24
+            },
             "strength": 17,
             "dexterity": 16,
             "constitution": 17,
@@ -11274,6 +12194,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 189,
+            "hit_dice": {
+                "num": 18,
+                "d": 10,
+                "+": 90
+            },
             "strength": 18,
             "dexterity": 20,
             "constitution": 20,
@@ -11368,6 +12293,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 5,
+            "hit_dice": {
+                "num": 1,
+                "d": 8,
+                "+": 1
+            },
             "strength": 13,
             "dexterity": 14,
             "constitution": 12,
@@ -11404,6 +12334,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 127,
+            "hit_dice": {
+                "num": 17,
+                "d": 8,
+                "+": 51
+            },
             "strength": 10,
             "dexterity": 15,
             "constitution": 16,
@@ -11463,6 +12398,11 @@
             "subtype": "merfolk",
             "alignment": "neutral",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 10,
             "dexterity": 13,
             "constitution": 12,
@@ -11504,6 +12444,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 12
+            },
             "strength": 18,
             "dexterity": 10,
             "constitution": 15,
@@ -11562,6 +12507,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 58,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 18
+            },
             "strength": 17,
             "dexterity": 12,
             "constitution": 15,
@@ -11626,6 +12576,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 76,
+            "hit_dice": {
+                "num": 9,
+                "d": 10,
+                "+": 27
+            },
             "strength": 18,
             "dexterity": 11,
             "constitution": 16,
@@ -11682,6 +12637,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 67,
+            "hit_dice": {
+                "num": 9,
+                "d": 10,
+                "+": 18
+            },
             "strength": 18,
             "dexterity": 11,
             "constitution": 15,
@@ -11733,6 +12693,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 14,
             "dexterity": 10,
             "constitution": 13,
@@ -11773,6 +12738,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 58,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 18
+            },
             "strength": 16,
             "dexterity": 8,
             "constitution": 15,
@@ -11827,6 +12797,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The mummy lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The mummy lord regains spent legendary actions at the start of its turn.",
             "hit_points": 97,
+            "hit_dice": {
+                "num": 13,
+                "d": 8,
+                "+": 39
+            },
             "strength": 18,
             "dexterity": 10,
             "constitution": 17,
@@ -11934,6 +12909,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 184,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 96
+            },
             "strength": 21,
             "dexterity": 10,
             "constitution": 22,
@@ -12018,6 +12998,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 112,
+            "hit_dice": {
+                "num": 15,
+                "d": 8,
+                "+": 45
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -12115,6 +13100,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 68,
+            "hit_dice": {
+                "num": 8,
+                "d": 10,
+                "+": 24
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -12170,6 +13160,10 @@
             "alignment": "any alignment",
             "armor_desc": "breastplate",
             "hit_points": 9,
+            "hit_dice": {
+                "num": 2,
+                "d": 8
+            },
             "strength": 11,
             "dexterity": 12,
             "constitution": 11,
@@ -12210,6 +13204,11 @@
             "type": "ooze",
             "alignment": "unaligned",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 12
+            },
             "strength": 15,
             "dexterity": 6,
             "constitution": 14,
@@ -12274,6 +13273,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 3,
+            "hit_dice": {
+                "num": 1,
+                "d": 6
+            },
             "strength": 4,
             "dexterity": 15,
             "constitution": 11,
@@ -12329,6 +13332,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "hide armor",
             "hit_points": 59,
+            "hit_dice": {
+                "num": 7,
+                "d": 10,
+                "+": 21
+            },
             "strength": 19,
             "dexterity": 8,
             "constitution": 16,
@@ -12367,6 +13375,11 @@
             "type": "undead",
             "alignment": "neutral evil",
             "hit_points": 85,
+            "hit_dice": {
+                "num": 9,
+                "d": 10,
+                "+": 36
+            },
             "strength": 19,
             "dexterity": 6,
             "constitution": 18,
@@ -12414,6 +13427,11 @@
             "alignment": "lawful evil",
             "armor_desc": "chain mail",
             "hit_points": 110,
+            "hit_dice": {
+                "num": 13,
+                "d": 10,
+                "+": 39
+            },
             "strength": 19,
             "dexterity": 11,
             "constitution": 16,
@@ -12488,6 +13506,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "hide armor",
             "hit_points": 15,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 6
+            },
             "strength": 16,
             "dexterity": 12,
             "constitution": 16,
@@ -12535,6 +13558,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 114,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 48
+            },
             "strength": 16,
             "dexterity": 11,
             "constitution": 19,
@@ -12589,6 +13617,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 3,
             "dexterity": 13,
             "constitution": 8,
@@ -12634,6 +13667,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 59,
+            "hit_dice": {
+                "num": 7,
+                "d": 10,
+                "+": 21
+            },
             "strength": 20,
             "dexterity": 12,
             "constitution": 17,
@@ -12681,6 +13719,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 3,
+                "d": 8
+            },
             "strength": 14,
             "dexterity": 15,
             "constitution": 10,
@@ -12728,6 +13770,11 @@
             "type": "celestial",
             "alignment": "chaotic good",
             "hit_points": 59,
+            "hit_dice": {
+                "num": 7,
+                "d": 10,
+                "+": 21
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -12767,6 +13814,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 32,
+            "hit_dice": {
+                "num": 5,
+                "d": 10,
+                "+": 5
+            },
             "strength": 15,
             "dexterity": 15,
             "constitution": 12,
@@ -12817,6 +13869,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 300,
+            "hit_dice": {
+                "num": 24,
+                "d": 10,
+                "+": 168
+            },
             "strength": 26,
             "dexterity": 14,
             "constitution": 24,
@@ -12909,6 +13966,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 200,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 112
+            },
             "strength": 24,
             "dexterity": 20,
             "constitution": 24,
@@ -12990,6 +14052,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 68,
+            "hit_dice": {
+                "num": 8,
+                "d": 10,
+                "+": 24
+            },
             "strength": 18,
             "dexterity": 15,
             "constitution": 16,
@@ -13027,6 +14094,10 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 2,
+            "hit_dice": {
+                "num": 1,
+                "d": 4
+            },
             "strength": 2,
             "dexterity": 16,
             "constitution": 11,
@@ -13058,6 +14129,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 42,
+            "hit_dice": {
+                "num": 5,
+                "d": 10,
+                "+": 15
+            },
             "strength": 20,
             "dexterity": 10,
             "constitution": 16,
@@ -13104,6 +14180,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 15,
             "dexterity": 10,
             "constitution": 13,
@@ -13133,6 +14214,11 @@
             "alignment": "any alignment",
             "armor_desc": "chain shirt",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 5
+            },
             "strength": 10,
             "dexterity": 10,
             "constitution": 12,
@@ -13179,6 +14265,11 @@
             "alignment": "neutral good",
             "armor_desc": "natural armor",
             "hit_points": 7,
+            "hit_dice": {
+                "num": 2,
+                "d": 4,
+                "+": 2
+            },
             "strength": 6,
             "dexterity": 15,
             "constitution": 13,
@@ -13243,6 +14334,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 247,
+            "hit_dice": {
+                "num": 15,
+                "d": 20,
+                "+": 90
+            },
             "strength": 28,
             "dexterity": 7,
             "constitution": 22,
@@ -13293,6 +14389,10 @@
             "subtype": "demon",
             "alignment": "chaotic evil",
             "hit_points": 7,
+            "hit_dice": {
+                "num": 3,
+                "d": 4
+            },
             "strength": 5,
             "dexterity": 17,
             "constitution": 10,
@@ -13368,6 +14468,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 2,
             "dexterity": 16,
             "constitution": 9,
@@ -13410,6 +14515,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 110,
+            "hit_dice": {
+                "num": 13,
+                "d": 8,
+                "+": 52
+            },
             "strength": 14,
             "dexterity": 17,
             "constitution": 18,
@@ -13467,6 +14577,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 2,
             "dexterity": 11,
             "constitution": 9,
@@ -13503,6 +14618,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 2,
             "dexterity": 14,
             "constitution": 8,
@@ -13540,6 +14660,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 75,
+            "hit_dice": {
+                "num": 10,
+                "d": 8,
+                "+": 30
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 17,
@@ -13589,6 +14714,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 4,
+                "d": 8,
+                "+": 4
+            },
             "strength": 14,
             "dexterity": 13,
             "constitution": 13,
@@ -13632,6 +14762,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 195,
+            "hit_dice": {
+                "num": 17,
+                "d": 12,
+                "+": 85
+            },
             "strength": 24,
             "dexterity": 13,
             "constitution": 21,
@@ -13680,6 +14815,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 10,
+                "+": 12
+            },
             "strength": 21,
             "dexterity": 8,
             "constitution": 15,
@@ -13714,6 +14854,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 2,
+                "d": 10,
+                "+": 2
+            },
             "strength": 16,
             "dexterity": 10,
             "constitution": 12,
@@ -13742,6 +14887,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 248,
+            "hit_dice": {
+                "num": 16,
+                "d": 20,
+                "+": 80
+            },
             "strength": 28,
             "dexterity": 10,
             "constitution": 20,
@@ -13792,6 +14942,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 93,
+            "hit_dice": {
+                "num": 11,
+                "d": 10,
+                "+": 33
+            },
             "strength": 18,
             "dexterity": 8,
             "constitution": 17,
@@ -13856,6 +15011,10 @@
             "type": "construct",
             "alignment": "unaligned",
             "hit_points": 33,
+            "hit_dice": {
+                "num": 6,
+                "d": 10
+            },
             "strength": 17,
             "dexterity": 14,
             "constitution": 10,
@@ -13916,6 +15075,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 5
+            },
             "strength": 13,
             "dexterity": 12,
             "constitution": 13,
@@ -13962,6 +15126,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 7,
+                "d": 10,
+                "+": 14
+            },
             "strength": 18,
             "dexterity": 14,
             "constitution": 15,
@@ -14010,6 +15179,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 4,
+                "d": 8,
+                "+": 4
+            },
             "strength": 13,
             "dexterity": 11,
             "constitution": 12,
@@ -14077,6 +15251,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 90,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 24
+            },
             "strength": 18,
             "dexterity": 14,
             "constitution": 15,
@@ -14140,6 +15319,10 @@
             "alignment": "chaotic neutral",
             "armor_desc": "leather armor",
             "hit_points": 31,
+            "hit_dice": {
+                "num": 7,
+                "d": 8
+            },
             "strength": 12,
             "dexterity": 16,
             "constitution": 11,
@@ -14198,6 +15381,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 2,
             "dexterity": 11,
             "constitution": 8,
@@ -14229,6 +15417,11 @@
             "alignment": "any alignment",
             "armor_desc": "leather armor",
             "hit_points": 16,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 3
+            },
             "strength": 11,
             "dexterity": 14,
             "constitution": 12,
@@ -14281,6 +15474,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 52,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 21
+            },
             "strength": 16,
             "dexterity": 13,
             "constitution": 16,
@@ -14353,6 +15551,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 1,
             "dexterity": 12,
             "constitution": 8,
@@ -14380,6 +15583,11 @@
             "type": "undead",
             "alignment": "chaotic evil",
             "hit_points": 16,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 3
+            },
             "strength": 6,
             "dexterity": 14,
             "constitution": 13,
@@ -14452,6 +15660,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 136,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 48
+            },
             "strength": 18,
             "dexterity": 8,
             "constitution": 16,
@@ -14513,6 +15726,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 142,
+            "hit_dice": {
+                "num": 15,
+                "d": 10,
+                "+": 60
+            },
             "strength": 18,
             "dexterity": 8,
             "constitution": 18,
@@ -14585,6 +15803,10 @@
             "type": "plant",
             "alignment": "unaligned",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 3,
+                "d": 8
+            },
             "strength": 1,
             "dexterity": 1,
             "constitution": 10,
@@ -14627,6 +15849,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 18
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 17,
@@ -14675,6 +15902,11 @@
             "alignment": "lawful evil",
             "armor_desc": "armor scraps",
             "hit_points": 13,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 4
+            },
             "strength": 10,
             "dexterity": 14,
             "constitution": 15,
@@ -14717,6 +15949,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The solar can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The solar regains spent legendary actions at the start of its turn.",
             "hit_points": 243,
+            "hit_dice": {
+                "num": 18,
+                "d": 10,
+                "+": 144
+            },
             "strength": 26,
             "dexterity": 22,
             "constitution": 26,
@@ -14830,6 +16067,10 @@
             "type": "undead",
             "alignment": "chaotic evil",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 8
+            },
             "strength": 1,
             "dexterity": 14,
             "constitution": 11,
@@ -14900,6 +16141,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 2,
             "dexterity": 14,
             "constitution": 8,
@@ -14949,6 +16195,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 75,
+            "hit_dice": {
+                "num": 10,
+                "d": 10,
+                "+": 20
+            },
             "strength": 18,
             "dexterity": 17,
             "constitution": 14,
@@ -15005,6 +16256,10 @@
             "alignment": "neutral good",
             "armor_desc": "leather armor",
             "hit_points": 2,
+            "hit_dice": {
+                "num": 1,
+                "d": 4
+            },
             "strength": 3,
             "dexterity": 18,
             "constitution": 10,
@@ -15056,6 +16311,10 @@
             "subtype": "any race",
             "alignment": "any alignment",
             "hit_points": 27,
+            "hit_dice": {
+                "num": 6,
+                "d": 8
+            },
             "strength": 10,
             "dexterity": 15,
             "constitution": 10,
@@ -15114,6 +16373,10 @@
             "type": "elemental",
             "alignment": "neutral evil",
             "hit_points": 21,
+            "hit_dice": {
+                "num": 6,
+                "d": 6
+            },
             "strength": 5,
             "dexterity": 11,
             "constitution": 10,
@@ -15178,6 +16441,10 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 2,
+            "hit_dice": {
+                "num": 1,
+                "d": 4
+            },
             "strength": 4,
             "dexterity": 16,
             "constitution": 11,
@@ -15209,6 +16476,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 126,
+            "hit_dice": {
+                "num": 11,
+                "d": 12,
+                "+": 55
+            },
             "strength": 23,
             "dexterity": 15,
             "constitution": 20,
@@ -15270,6 +16542,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 178,
+            "hit_dice": {
+                "num": 17,
+                "d": 10,
+                "+": 85
+            },
             "strength": 22,
             "dexterity": 9,
             "constitution": 20,
@@ -15345,6 +16622,11 @@
             "alignment": "chaotic good",
             "armor_desc": "scale mail",
             "hit_points": 230,
+            "hit_dice": {
+                "num": 20,
+                "d": 12,
+                "+": 100
+            },
             "strength": 29,
             "dexterity": 14,
             "constitution": 20,
@@ -15420,6 +16702,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 66,
+            "hit_dice": {
+                "num": 12,
+                "d": 8,
+                "+": 12
+            },
             "strength": 8,
             "dexterity": 17,
             "constitution": 13,
@@ -15497,6 +16784,10 @@
             "type": "swarm of Tiny beasts",
             "alignment": "unaligned",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 8
+            },
             "strength": 5,
             "dexterity": 15,
             "constitution": 10,
@@ -15667,6 +16958,10 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 5,
+                "d": 8
+            },
             "strength": 3,
             "dexterity": 13,
             "constitution": 10,
@@ -15719,6 +17014,10 @@
             "type": "swarm of Tiny beasts",
             "alignment": "unaligned",
             "hit_points": 36,
+            "hit_dice": {
+                "num": 8,
+                "d": 8
+            },
             "strength": 8,
             "dexterity": 18,
             "constitution": 11,
@@ -15771,6 +17070,11 @@
             "type": "swarm of Tiny beasts",
             "alignment": "unaligned",
             "hit_points": 28,
+            "hit_dice": {
+                "num": 8,
+                "d": 8,
+                "+": -8
+            },
             "strength": 13,
             "dexterity": 16,
             "constitution": 9,
@@ -15833,6 +17137,11 @@
             "type": "swarm of Tiny beasts",
             "alignment": "unaligned",
             "hit_points": 24,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": -7
+            },
             "strength": 9,
             "dexterity": 11,
             "constitution": 9,
@@ -15889,6 +17198,11 @@
             "type": "swarm of Tiny beasts",
             "alignment": "unaligned",
             "hit_points": 24,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 7
+            },
             "strength": 6,
             "dexterity": 14,
             "constitution": 8,
@@ -16062,6 +17376,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The tarrasque can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The tarrasque regains spent legendary actions at the start of its turn.",
             "hit_points": 676,
+            "hit_dice": {
+                "num": 33,
+                "d": 20,
+                "+": 330
+            },
             "strength": 30,
             "dexterity": 11,
             "constitution": 30,
@@ -16178,6 +17497,11 @@
             "alignment": "any non-good alignment",
             "armor_desc": "leather armor",
             "hit_points": 32,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 10
+            },
             "strength": 15,
             "dexterity": 11,
             "constitution": 14,
@@ -16226,6 +17550,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 37,
+            "hit_dice": {
+                "num": 5,
+                "d": 10,
+                "+": 10
+            },
             "strength": 17,
             "dexterity": 15,
             "constitution": 14,
@@ -16275,6 +17604,11 @@
             "alignment": "chaotic good",
             "armor_desc": "natural armor",
             "hit_points": 138,
+            "hit_dice": {
+                "num": 12,
+                "d": 12,
+                "+": 60
+            },
             "strength": 23,
             "dexterity": 8,
             "constitution": 21,
@@ -16341,6 +17675,11 @@
             "alignment": "any alignment",
             "armor_desc": "hide armor",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 13,
             "dexterity": 11,
             "constitution": 12,
@@ -16379,6 +17718,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 95,
+            "hit_dice": {
+                "num": 10,
+                "d": 12,
+                "+": 30
+            },
             "strength": 22,
             "dexterity": 9,
             "constitution": 17,
@@ -16419,6 +17763,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 84,
+            "hit_dice": {
+                "num": 8,
+                "d": 10,
+                "+": 40
+            },
             "strength": 18,
             "dexterity": 13,
             "constitution": 20,
@@ -16480,6 +17829,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 136,
+            "hit_dice": {
+                "num": 13,
+                "d": 12,
+                "+": 52
+            },
             "strength": 25,
             "dexterity": 10,
             "constitution": 19,
@@ -16519,6 +17873,11 @@
             "alignment": "lawful good",
             "legendary_desc": "The unicorn can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The unicorn regains spent legendary actions at the start of its turn.",
             "hit_points": 67,
+            "hit_dice": {
+                "num": 9,
+                "d": 10,
+                "+": 18
+            },
             "strength": 18,
             "dexterity": 14,
             "constitution": 15,
@@ -16624,6 +17983,11 @@
             "armor_desc": "natural armor",
             "legendary_desc": "The vampire can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The vampire regains spent legendary actions at the start of its turn.",
             "hit_points": 144,
+            "hit_dice": {
+                "num": 17,
+                "d": 10,
+                "+": 68
+            },
             "strength": 18,
             "dexterity": 18,
             "constitution": 18,
@@ -16737,6 +18101,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 82,
+            "hit_dice": {
+                "num": 11,
+                "d": 8,
+                "+": 33
+            },
             "strength": 16,
             "dexterity": 16,
             "constitution": 16,
@@ -16808,6 +18177,11 @@
             "alignment": "any alignment",
             "armor_desc": "splint",
             "hit_points": 58,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 18
+            },
             "strength": 16,
             "dexterity": 13,
             "constitution": 14,
@@ -16855,6 +18229,10 @@
             "type": "plant",
             "alignment": "unaligned",
             "hit_points": 18,
+            "hit_dice": {
+                "num": 4,
+                "d": 8
+            },
             "strength": 3,
             "dexterity": 1,
             "constitution": 10,
@@ -16903,6 +18281,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 104,
+            "hit_dice": {
+                "num": 11,
+                "d": 10,
+                "+": 44
+            },
             "strength": 17,
             "dexterity": 15,
             "constitution": 18,
@@ -16986,6 +18369,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 5,
+            "hit_dice": {
+                "num": 1,
+                "d": 8,
+                "+": 1
+            },
             "strength": 7,
             "dexterity": 10,
             "constitution": 13,
@@ -17027,6 +18415,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 19,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 3
+            },
             "strength": 18,
             "dexterity": 12,
             "constitution": 13,
@@ -17062,6 +18455,11 @@
             "alignment": "lawful evil",
             "armor_desc": "barding scraps",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 3,
+                "d": 10,
+                "+": 6
+            },
             "strength": 18,
             "dexterity": 12,
             "constitution": 15,
@@ -17099,6 +18497,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 114,
+            "hit_dice": {
+                "num": 12,
+                "d": 10,
+                "+": 48
+            },
             "strength": 18,
             "dexterity": 14,
             "constitution": 18,
@@ -17173,6 +18576,11 @@
             "type": "beast",
             "alignment": "unaligned",
             "hit_points": 1,
+            "hit_dice": {
+                "num": 1,
+                "d": 4,
+                "+": -1
+            },
             "strength": 3,
             "dexterity": 16,
             "constitution": 8,
@@ -17211,6 +18619,11 @@
             "alignment": "neutral good",
             "armor_desc": "10 in humanoid form, 11 (natural armor) in bear and hybrid form",
             "hit_points": 135,
+            "hit_dice": {
+                "num": 18,
+                "d": 8,
+                "+": 54
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 17,
@@ -17277,6 +18690,11 @@
             "alignment": "neutral evil",
             "armor_desc": "10 in humanoid form, 11 (natural armor) in boar or hybrid form",
             "hit_points": 78,
+            "hit_dice": {
+                "num": 12,
+                "d": 8,
+                "+": 24
+            },
             "strength": 17,
             "dexterity": 10,
             "constitution": 15,
@@ -17341,6 +18759,11 @@
             "subtype": "human",
             "alignment": "lawful evil",
             "hit_points": 33,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 6
+            },
             "strength": 10,
             "dexterity": 15,
             "constitution": 12,
@@ -17408,6 +18831,11 @@
             "subtype": "human",
             "alignment": "neutral",
             "hit_points": 120,
+            "hit_dice": {
+                "num": 16,
+                "d": 8,
+                "+": 48
+            },
             "strength": 17,
             "dexterity": 15,
             "constitution": 16,
@@ -17486,6 +18914,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "11 in humanoid form, 12 (natural armor) in wolf or hybrid form",
             "hit_points": 58,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 18
+            },
             "strength": 15,
             "dexterity": 13,
             "constitution": 14,
@@ -17550,6 +18983,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 32,
+            "hit_dice": {
+                "num": 5,
+                "d": 8,
+                "+": 10
+            },
             "strength": 14,
             "dexterity": 10,
             "constitution": 14,
@@ -17600,6 +19038,11 @@
             "alignment": "neutral evil",
             "armor_desc": "studded leather",
             "hit_points": 45,
+            "hit_dice": {
+                "num": 6,
+                "d": 8,
+                "+": 18
+            },
             "strength": 15,
             "dexterity": 14,
             "constitution": 16,
@@ -17665,6 +19108,10 @@
             "type": "undead",
             "alignment": "chaotic evil",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 9,
+                "d": 4
+            },
             "strength": 1,
             "dexterity": 28,
             "constitution": 10,
@@ -17749,6 +19196,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 75,
+            "hit_dice": {
+                "num": 10,
+                "d": 10,
+                "+": 20
+            },
             "strength": 18,
             "dexterity": 13,
             "constitution": 14,
@@ -17809,6 +19261,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 11,
+            "hit_dice": {
+                "num": 2,
+                "d": 8,
+                "+": 2
+            },
             "strength": 12,
             "dexterity": 15,
             "constitution": 12,
@@ -17851,6 +19308,11 @@
             "alignment": "neutral evil",
             "armor_desc": "natural armor",
             "hit_points": 26,
+            "hit_dice": {
+                "num": 4,
+                "d": 10,
+                "+": 4
+            },
             "strength": 16,
             "dexterity": 13,
             "constitution": 13,
@@ -17892,6 +19354,11 @@
             "type": "undead",
             "alignment": "neutral evil",
             "hit_points": 67,
+            "hit_dice": {
+                "num": 9,
+                "d": 8,
+                "+": 27
+            },
             "strength": 6,
             "dexterity": 16,
             "constitution": 16,
@@ -17967,6 +19434,11 @@
             "alignment": "unaligned",
             "armor_desc": "natural armor",
             "hit_points": 110,
+            "hit_dice": {
+                "num": 13,
+                "d": 10,
+                "+": 39
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 16,
@@ -18014,6 +19486,11 @@
             "alignment": "neutral",
             "armor_desc": "natural armor",
             "hit_points": 73,
+            "hit_dice": {
+                "num": 7,
+                "d": 8,
+                "+": 42
+            },
             "strength": 17,
             "dexterity": 10,
             "constitution": 22,
@@ -18081,6 +19558,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 127,
+            "hit_dice": {
+                "num": 15,
+                "d": 10,
+                "+": 45
+            },
             "strength": 19,
             "dexterity": 14,
             "constitution": 17,
@@ -18148,6 +19630,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 152,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 64
+            },
             "strength": 21,
             "dexterity": 10,
             "constitution": 19,
@@ -18208,6 +19695,11 @@
             "alignment": "chaotic good",
             "armor_desc": "natural armor",
             "hit_points": 110,
+            "hit_dice": {
+                "num": 13,
+                "d": 10,
+                "+": 39
+            },
             "strength": 19,
             "dexterity": 10,
             "constitution": 17,
@@ -18269,6 +19761,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 142,
+            "hit_dice": {
+                "num": 15,
+                "d": 10,
+                "+": 60
+            },
             "strength": 21,
             "dexterity": 10,
             "constitution": 19,
@@ -18337,6 +19834,11 @@
             "alignment": "chaotic good",
             "armor_desc": "natural armor",
             "hit_points": 119,
+            "hit_dice": {
+                "num": 14,
+                "d": 10,
+                "+": 42
+            },
             "strength": 19,
             "dexterity": 12,
             "constitution": 17,
@@ -18398,6 +19900,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 178,
+            "hit_dice": {
+                "num": 17,
+                "d": 10,
+                "+": 85
+            },
             "strength": 23,
             "dexterity": 14,
             "constitution": 21,
@@ -18467,6 +19974,11 @@
             "alignment": "lawful evil",
             "armor_desc": "natural armor",
             "hit_points": 136,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 48
+            },
             "strength": 19,
             "dexterity": 12,
             "constitution": 17,
@@ -18538,6 +20050,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 178,
+            "hit_dice": {
+                "num": 17,
+                "d": 10,
+                "+": 85
+            },
             "strength": 23,
             "dexterity": 10,
             "constitution": 21,
@@ -18598,6 +20115,11 @@
             "alignment": "lawful good",
             "armor_desc": "natural armor",
             "hit_points": 168,
+            "hit_dice": {
+                "num": 16,
+                "d": 10,
+                "+": 80
+            },
             "strength": 23,
             "dexterity": 10,
             "constitution": 21,
@@ -18659,6 +20181,11 @@
             "alignment": "chaotic evil",
             "armor_desc": "natural armor",
             "hit_points": 133,
+            "hit_dice": {
+                "num": 14,
+                "d": 10,
+                "+": 56
+            },
             "strength": 18,
             "dexterity": 10,
             "constitution": 18,
@@ -18726,6 +20253,11 @@
             "type": "undead",
             "alignment": "neutral evil",
             "hit_points": 22,
+            "hit_dice": {
+                "num": 3,
+                "d": 8,
+                "+": 9
+            },
             "strength": 13,
             "dexterity": 6,
             "constitution": 16,
