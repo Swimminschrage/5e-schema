@@ -3,3 +3,6 @@ personal_modules/**
 
 # Block any converters which were used for converting other json files into schema compliant versions.
 *converter.js
+
+# And of course....
+node_modules
