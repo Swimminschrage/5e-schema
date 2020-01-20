@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/spells.json",
+  "type": "array",
+  "title": "Spells",
+  "description": "Definitions of Spells that can be cast",
+  "items": {
+  	"title": "Spell",
+  	"description": "Definition of a particular spell that can be cast.",
+  	"type": "object",
+  	"properties": {
+  		"id": {
+  			"type": "string",
+  			"pattern": "^([a-z\\-\\_\\.])+$"
+  		},
+  		"name": {
+  			"type": "string"
+  		},
+  		"desc": {
+  			"type": "string"
+  		},
+  		"higher_level": {
+  			"type": "string"
+  		},
+  		"range": {
+  			"type": "string"
+  		},
+  		"components": {
+  			"type": "array",
+  			"items": {
+				"type": "string",
+				"enum": [
+					"V",
+					"S",
+					"M"
+				]
+			},
+  			"uniqueItems": true,
+  			"additionalItems": false
+  		},
+  		"materials": {
+  			"type": "string"
+  		},
+  		"ritual": {
+  			"type": "boolean",
+  			"default": false
+  		},
+  		"duration": {
+  			"type": "string"
+  		},
+  		"concentration": {
+  			"type": "boolean",
+  			"default": false
+  		},
+  		"casting_time": {
+  			"type": "string",
+  			"default": "1 action"
+  		},
+  		"level": {
+  			"type": "integer"
+  		},
+  		"school": {
+  			"type": "string"
+  		},
+  		"class": {
+  			"type": "array",
+  			"items": {
+  				"type": "string"
+  			}
+  		}
+  	},
+  	"requires": [
+  		"id",
+  		"name",
+  		"level",
+  		"description",
+  		"range",
+  		"components",
+  		"duration"
+  	]
+  }
+}

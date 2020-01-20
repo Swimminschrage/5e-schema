@@ -1,21 +1,21 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/module.json",
-  "title": "5e Module definition",
+  	"title": "5e Module definition",
 	"definitions": {
 		"participant": {
-      "description": "The description for a creature that is involved as a group or is unique to an encounter.",
+      		"description": "The description for a creature that is involved as a group or is unique to an encounter.",
 			"type": "object",
 			"properties": {
 				"creature_id": {
-          "description": "The 'id' of the creature that is a participant.",
+          			"description": "The 'id' of the creature that is a participant.",
 					"type": "string"
 				},
 				"quantity": {
-          "description": "The number of creatures of the type defined by the 'creature_id' in an encounter.",
+          			"description": "The number of creatures of the type defined by the 'creature_id' in an encounter.",
 					"type": "integer",
 					"minimum": 1,
-          "default": 1
+          			"default": 1
 				},
 				"name": {
 					"type": "string",
@@ -27,7 +27,7 @@
 			]
 		},
 		"encounter": {
-      "description": "A definition for a single encounter made up of a group of creatures.",
+      		"description": "A definition for a single encounter made up of a group of creatures.",
 			"type": "object",
 			"properties": {
 				"name": {
@@ -91,8 +91,11 @@
 		"creatures": {
 			"$ref": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creatures.json"
 		},
+		"spells": {
+			"$ref": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/spells.json"
+		},
 		"chapters": {
-      "description": "A module is broken into chapters.  Allows you to group encounters together.",
+      		"description": "A module is broken into chapters.  Allows you to group encounters together.",
 			"type": "array",
 			"items": {
 				"type": "object",
