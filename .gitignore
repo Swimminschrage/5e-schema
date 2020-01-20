@@ -1,5 +1,5 @@
 # Block from git locations of personal modules that shouldn't be checked into the schema.
-./personal_modules/**
+personal_modules/**
 
 # Block any converters which were used for converting other json files into schema compliant versions.
-./*converter.js
+*converter.js
