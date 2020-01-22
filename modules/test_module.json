@@ -2,6 +2,7 @@
 	"title": "Test Module with Encounters",
 	"license": "",
 	"version": "1.0",
+	"version_number": 1,
 	"copyright": "",
 	"creatures": [
 		{
