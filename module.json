@@ -74,7 +74,14 @@
 			"type": "string"
 		},
 		"version": {
+			"title": "Version",
+			"description": "User-friendly string representation of the version of the json file.",
 			"type": "string"
+		},
+		"version_number": {
+			"title": "Version Number",
+			"description": "Integer representation of the version of the json file.  Used when overriding a previously loaded module.",
+			"type": "integer"
 		},
 		"copyright": {
 			"type": "string"
@@ -124,7 +131,7 @@
 	"required": [
 		"title",
 		"license",
-		"version",
+		"version_number",
 		"copyright"
 	]
 }
