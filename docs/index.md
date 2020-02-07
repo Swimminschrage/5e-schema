@@ -1,7 +1,9 @@
 ## A 5e JSON Schema
 The amount of content being created by Wizards of the Coast and indie developers is increasing on a daily basis, but all of the apps and tools that DMs and players can use aren't able to keep up.  The 5e schema is designed around providing a structured format that content creators can use to provide their content to app developers to consume.
 
-For example, a representation of the data for the 5e SRD from Wizards of the Coast can be found [here: https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/modules/srd.json](https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/modules/srd.json)
+[See a visualization here.](https://swimminschrage.github.io/5e-schema-viewer/)
+
+For example, a representation of the data in the 5e SRD from Wizards of the Coast can be found [here: https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/modules/srd.json](https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/modules/srd.json)
 
 With a common schema, tools can be created that not only consume this data, but make it easy to create and host it for players and DMs alike.
 
