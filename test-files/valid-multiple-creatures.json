@@ -73,62 +73,95 @@
         "armor_desc": "natural armor"
     },
     {
-    	"id": "acolyte",
         "name": "Acolyte",
         "size": "Medium",
         "type": "humanoid",
         "subtype": "any race",
         "alignment": "any alignment",
-        "armor_class": 10,
         "hit_points": 9,
         "hit_dice": {
             "num": 2,
-            "d": 8,
-            "+": 1
+            "d": 8
         },
-        "speed": ["30 ft."],
         "strength": 10,
         "dexterity": 10,
         "constitution": 10,
         "intelligence": 10,
         "wisdom": 14,
         "charisma": 11,
+        "armor_class": 10,
         "medicine": 4,
         "religion": 2,
-        "damage_vulnerabilities": [],
-        "damage_resistances": [],
-        "damage_immunities": [],
-        "condition_immunities": [],
-        "languages": ["any one language (usually Common)"],
+        "speed": [
+            "30 ft."
+        ],
+        "languages": [
+            "any one language (usually Common)"
+        ],
+        "senses": [],
+        "id": "acolyte",
         "challenge_rating": 0.25,
         "special_abilities": [
             {
                 "name": "Spellcasting",
-                "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n\n• Cantrips (at will): light, sacred flame, thaumaturgy\n• 1st level (3 slots): bless, cure wounds, sanctuary"
+                "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n\n• Cantrips (at will): light, sacred flame, thaumaturgy\n• 1st level (3 slots): bless, cure wounds, sanctuary",
+                "what": []
             }
-        ],
-        "spellcasting": [
-            {
-                "name": "Cantrips (at will)",
-                "casts": {
-                    "num": -1
-                },
-                "spells": [
-                    {"name": "light"}, 
-                    {"name": "sacred flame"}
-                ]
-            } 
         ],
         "actions": [
             {
                 "name": "Club",
                 "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
-                "bonus": 2,
-                "damage": {
-                    "d": 4
-                }
+                "what": []
             }
         ],
-        "unique": false
+        "spellcasting": {
+            "level": 1,
+            "ability": "wisdom",
+            "save_dc": 12,
+            "to_hit": 4,
+            "spell_groups": [
+                {
+                    "name": "Cantrips (at will)",
+                    "casts": {
+                        "num": -1
+                    },
+                    "spells": [
+                        {
+                            "name": "Light",
+                            "spell_id": "light"
+                        },
+                        {
+                            "name": "Sacred Flame",
+                            "spell_id": "sacred_flame"
+                        },
+                        {
+                            "name": "Thaumaturgy",
+                            "spell_id": "thaumaturgy"
+                        }
+                    ]
+                },
+                {
+                    "name": "1st Level",
+                    "casts": {
+                        "num": 3
+                    },
+                    "spells": [
+                        {
+                            "name": "Bless",
+                            "spell_id": "bless"
+                        },
+                        {
+                            "name": "Cure Wounds",
+                            "spell_id": "cure_wounds"
+                        },
+                        {
+                            "name": "Sanctuary",
+                            "spell_id": "sanctuary"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 ]

@@ -145,7 +145,55 @@
                     "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 1,
+                "ability": "wisdom",
+                "save_dc": 12,
+                "to_hit": 4,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Light",
+                                "spell_id": "light"
+                            },
+                            {
+                                "name": "Sacred Flame",
+                                "spell_id": "sacred_flame"
+                            },
+                            {
+                                "name": "Thaumaturgy",
+                                "spell_id": "thaumaturgy"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Bless",
+                                "spell_id": "bless"
+                            },
+                            {
+                                "name": "Cure Wounds",
+                                "spell_id": "cure_wounds"
+                            },
+                            {
+                                "name": "Sanctuary",
+                                "spell_id": "sanctuary"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Adult Black Dragon",
@@ -2438,7 +2486,116 @@
                     "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 12,
+                "ability": "wisdom",
+                "save_dc": 18,
+                "to_hit": 10,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "sacred_flame"
+                            },
+                            {
+                                "spell_id": "spare_the_dying"
+                            },
+                            {
+                                "spell_id": "thaumaturgy"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "command"
+                            },
+                            {
+                                "spell_id": "detect_evil_and_good"
+                            },
+                            {
+                                "spell_id": "detect_magic"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "lesser_restoration"
+                            },
+                            {
+                                "spell_id": "zone_of_truth"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "dispel_magic"
+                            },
+                            {
+                                "spell_id": "tongues"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4th Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "banishment"
+                            },
+                            {
+                                "spell_id": "freedom_of_movement"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "5th Level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "flame_strike"
+                            },
+                            {
+                                "spell_id": "greater_restoration"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "6th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "heroes_feast"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Animated Armor",
@@ -2650,7 +2807,176 @@
                     "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 18,
+                "ability": "intelligence",
+                "save_dc": 17,
+                "to_hit": 9,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips or at will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "disguise_self"
+                            },
+                            {
+                                "spell_id": "invisibility"
+                            },
+                            {
+                                "spell_id": "fire_bolt"
+                            },
+                            {
+                                "spell_id": "light"
+                            },
+                            {
+                                "spell_id": "mage_hand"
+                            },
+                            {
+                                "spell_id": "prestidigitation"
+                            },
+                            {
+                                "spell_id": "shocking_grasp"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "detect_magic"
+                            },
+                            {
+                                "spell_id": "identify"
+                            },
+                            {
+                                "spell_id": "mage_armor"
+                            },
+                            {
+                                "spell_id": "magic_missile"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "detect_thoughts"
+                            },
+                            {
+                                "spell_id": "mirror_image"
+                            },
+                            {
+                                "spell_id": "misty_step"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "counterspell"
+                            },
+                            {
+                                "spell_id": "fly"
+                            },
+                            {
+                                "spell_id": "lightning_bolt"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4th Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "banishment"
+                            },
+                            {
+                                "spell_id": "fire_shield"
+                            },
+                            {
+                                "spell_id": "stoneskin"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "5th Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "cone_of_cold"
+                            },
+                            {
+                                "spell_id": "scrying"
+                            }, 
+                            {
+                                "spell_id": "wall_of_force"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "6th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "globe_of_invulnerability"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "7th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "teleport"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "8th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "mind_blank"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "9th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "time_stop"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Assassin",
@@ -4885,7 +5211,74 @@
                     "desc": "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Detect Magic",
+                                "spell_id": "detect_magic"
+                            },
+                            {
+                                "name": "Fog Cloud",
+                                "spell_id": "fog_cloud"
+                            },
+                            {
+                                "name": "Light",
+                                "spell_id": "light"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Feather Fall",
+                                "spell_id": "feather_fall"
+                            },
+                            {
+                                "name": "Fly",
+                                "spell_id": "fly"
+                            },
+                            {
+                                "name": "Misty Step",
+                                "spell_id": "misty_step"
+                            },
+                            {
+                                "name": "Telekinesis",
+                                "spell_id": "telekinesis"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Control Weather",
+                                "spell_id": "control_weather"
+                            },
+                            {
+                                "name": "Gaseous Form",
+                                "spell_id": "gaseous_form"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Cockatrice",
@@ -5127,7 +5520,91 @@
                     "desc": "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).\nIn a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 14,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Detect Evil and Good",
+                                "spell_id": "detect_evil_and_good"
+                            },
+                            {
+                                "name": "Detect Magic",
+                                "spell_id": "detect_magic"
+                            },
+                            {
+                                "name": "Detect Thoughts",
+                                "spell_id": "detect_thoughts"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Bless",
+                                "spell_id": "bless"
+                            },
+                            {
+                                "name": "Create Food and Water",
+                                "spell_id": "create_food_and_water"
+                            },
+                            {
+                                "name": "Cure Wounds",
+                                "spell_id": "cure_wounds"
+                            },
+                            {
+                                "name": "Lesser Restoration",
+                                "spell_id": "lesser_restoration"
+                            },
+                            {
+                                "name": "Protection from Poison",
+                                "spell_id": "protection_from_poison"
+                            },
+                            {
+                                "name": "Sanctuary",
+                                "spell_id": "sanctuary"
+                            },
+                            {
+                                "name": "Shield",
+                                "spell_id": "shield"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Dream",
+                                "spell_id": "dream"
+                            },
+                            {
+                                "name": "Greater Restoration",
+                                "spell_id": "greater_restoration"
+                            },
+                            {
+                                "name": "Scrying",
+                                "spell_id": "scrying"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Crab",
@@ -5269,7 +5746,71 @@
                     "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 4,
+                "ability": "wisdom",
+                "save_dc": 11,
+                "to_hit": 3,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Light",
+                                "spell_id": "light"
+                            },
+                            {
+                                "name": "Sacred Flame",
+                                "spell_id": "sacred_flame"
+                            },
+                            {
+                                "name": "Thaumaturgy",
+                                "spell_id": "thaumaturgy"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "name": "Command",
+                                "spell_id": "command"
+                            },
+                            {
+                                "name": "Inflict Wounds",
+                                "spell_id": "inflict_wounds"
+                            },
+                            {
+                                "name": "Shield of Faith",
+                                "spell_id": "shield_of_faith"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Hold Person",
+                                "spell_id": "hold_person"
+                            },
+                            {
+                                "name": "Spiritual Weapon",
+                                "spell_id": "spiritual_weapon"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Cultist",
@@ -5481,7 +6022,46 @@
                     "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "intelligence",
+                "save_dc": 11,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Nondetection (Self Only)",
+                                "spell_id": "nondetection"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Blindness/Deafness",
+                                "spell_id": "blindness_deafness"
+                            },
+                            {
+                                "name": "Blur",
+                                "spell_id": "blur"
+                            },
+                            {
+                                "name": "Disguise Self",
+                                "spell_id": "disguise_self"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Deer",
@@ -5599,7 +6179,42 @@
                     "desc": "The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice).\nIn a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 17,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Detect Evil and Good",
+                                "spell_id": "detect_evil_and_good"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Commune",
+                                "spell_id": "commune"
+                            },
+                            {
+                                "name": "Raise Dead",
+                                "spell_id": "raise_dead"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Dire Wolf",
@@ -5719,7 +6334,88 @@
                     "desc": "A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind must succeed on a DC 18 Strength saving throw or be restrained by it. The djinni can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.\nA creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a DC 18 Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 17,
+                "to_hit": 9,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Detect Evil and Good",
+                                "spell_id": "detect_evil_and_good"
+                            },
+                            {
+                                "name": "Detect Magic",
+                                "spell_id": "detect_magic"
+                            },
+                            {
+                                "name": "Thunderwave",
+                                "spell_id": "thunderwave"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Create food and water (can create wine instead of water)",
+                                "spell_id": "create_food_and_water"
+                            },
+                            {
+                                "name": "Tongues",
+                                "spell_id": "tongues"
+                            },
+                            {
+                                "name": "Wind Walk",
+                                "spell_id": "wind_walk"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Conjure Elemental (air elemental only)",
+                                "spell_id": "conjure_elemental"
+                            },
+                            {
+                                "name": "Creation",
+                                "spell_id": "creation"
+                            },
+                            {
+                                "name": "Gaseous Form",
+                                "spell_id": "gaseous_form"
+                            },
+                            {
+                                "name": "Invisibility",
+                                "spell_id": "invisibility"
+                            },
+                            {
+                                "name": "Major Image",
+                                "spell_id": "major_image"
+                            },
+                            {
+                                "name": "Plane Shift",
+                                "spell_id": "plane_shift"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Doppelganger",
@@ -6043,7 +6739,42 @@
                     "desc": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "wisdom",
+                "save_dc": 13,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Dancing Lights",
+                                "spell_id": "dancing_lights"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Darkness",
+                                "spell_id": "darkness"
+                            },
+                            {
+                                "name": "Faerie Fire",
+                                "spell_id": "faerie_fire"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Drow",
@@ -6106,7 +6837,42 @@
                     "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 11,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Dancing Lights",
+                                "spell_id": "dancing_lights"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Darkness",
+                                "spell_id": "darkness"
+                            },
+                            {
+                                "name": "Faerie Fire",
+                                "spell_id": "faerie_fire"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Druid",
@@ -6153,7 +6919,75 @@
                     "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 4,
+                "ability": "wisdom",
+                "save_dc": 12,
+                "to_hit": 4,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Druidcraft",
+                                "spell_id": "druidcraft"
+                            },
+                            {
+                                "name": "Produce Flame",
+                                "spell_id": "produce_flame"
+                            },
+                            {
+                                "name": "Shillelagh",
+                                "spell_id": "shillelagh"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "name": "Entangle",
+                                "spell_id": "entangle"
+                            },
+                            {
+                                "name": "Longstrider",
+                                "spell_id": "longstrider"
+                            },
+                            {
+                                "name": "Speak with Animals",
+                                "spell_id": "speak_with_animals"
+                            },
+                            {
+                                "name": "Thunderwave",
+                                "spell_id": "thunderwave"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Animal Messenger",
+                                "spell_id": "animal_messenger"
+                            },
+                            {
+                                "name": "Barkskin",
+                                "spell_id": "barkskin"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Dryad",
@@ -6220,7 +7054,63 @@
                     "desc": "The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.\nEach time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.\nThe dryad can have no more than one humanoid and up to three beasts charmed at a time.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 14,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Druidcraft",
+                                "spell_id": "druidcraft"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Entangle",
+                                "spell_id": "entangle"
+                            },
+                            {
+                                "name": "Goodberry",
+                                "spell_id": "goodberry"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Barkskin",
+                                "spell_id": "barkskin"
+                            },
+                            {
+                                "name": "Pass Without Trace",
+                                "spell_id": "pass_without_trace"
+                            },
+                            {
+                                "name": "Shillelagh",
+                                "spell_id": "shillelagh"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Duergar",
@@ -6358,7 +7248,24 @@
                     "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "spell_groups": [
+                    {
+                        "name": "Innate Spellcasting (1/day)",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "name": "Sleep",
+                                "spell_id": "sleep"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Eagle",
@@ -6542,7 +7449,75 @@
                     "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6) fire damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 15,
+                "to_hit": 7,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Detect Magic",
+                                "spell_id": "detect_magic"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Enlarge/Reduce",
+                                "spell_id": "enlarge_reduce"
+                            },
+                            {
+                                "name": "Tongues",
+                                "spell_id": "tongues"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Conjure Elemental (fire elemental only)",
+                                "spell_id": "conjure_elemental"
+                            },
+                            {
+                                "name": "Gaseous Form",
+                                "spell_id": "gaseous_form"
+                            },
+                            {
+                                "name": "Invisibility",
+                                "spell_id": "invisibility"
+                            },
+                            {
+                                "name": "Major Image",
+                                "spell_id": "major_image"
+                            },
+                            {
+                                "name": "Plane Shift",
+                                "spell_id": "plane_shift"
+                            },
+                            {
+                                "name": "Wall of Fire",
+                                "spell_id": "wall_of_fire"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Elephant",
@@ -9100,7 +10075,54 @@
                     "desc": "The demon chooses what to summon and attempts a magical summoning.\nA glabrezu has a 30 percent chance of summoning 1d3 vrocks, 1d2 hezrous, or one glabrezu.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "intelligence",
+                "save_dc": 16,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Darkness",
+                                "spell_id": "darkness"
+                            },
+                            {
+                                "name": "Detect Magic",
+                                "spell_id": "detect_magic"
+                            },
+                            {
+                                "name": "Dispel Magic",
+                                "spell_id": "dispel_magic"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "name": "Confusion",
+                                "spell_id": "confusion"
+                            },
+                            {
+                                "name": "Fly",
+                                "spell_id": "fly"
+                            },
+                            {
+                                "name": "Power Word Stun",
+                                "spell_id": "power_word_stun"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Gladiator",
@@ -9653,7 +10675,132 @@
                     "desc": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "intelligence",
+                "save_dc": 13,
+                "to_hit": 5,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1,
+                            "ability": "charisma",
+                            "save_dc": 12
+                        },
+                        "spells": [
+                            {
+                                "name": "Dancing Lights",
+                                "spell_id": "dancing_lights"
+                            },
+                            {
+                                "name": "Minor Illusion",
+                                "spell_id": "minor_illusion"
+                            },
+                            {
+                                "name": "Vicious Mockery",
+                                "spell_id": "vicious_mockery"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "name": "Identify",
+                                "spell_id": "identify"
+                            },
+                            {
+                                "name": "Ray of Sickness",
+                                "spell_id": "ray_of_sickness"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Hold Person",
+                                "spell_id": "hold_person"
+                            },
+                            {
+                                "name": "Locate Object",
+                                "spell_id": "locate_object"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 3rd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Bestow Curse",
+                                "spell_id": "bestow_curse"
+                            },
+                            {
+                                "name": "Counterspell",
+                                "spell_id": "counterspell"
+                            },
+                            {
+                                "name": "Lightning Bolt",
+                                "spell_id": "lightning_bolt"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 4th Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Phantasmal Killer",
+                                "spell_id": "phantasmal_killer"
+                            },
+                            {
+                                "name": "Polymorph",
+                                "spell_id": "polymorph"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 5th Level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            {
+                                "name": "Contact Other Plane",
+                                "spell_id": "contact_other_plane"
+                            },
+                            {
+                                "name": "Scrying",
+                                "spell_id": "scrying"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 6th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "name": "Eye Bite",
+                                "spell_id": "eye_bite"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Grick",
@@ -9929,7 +11076,116 @@
                     "desc": "Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 11,
+                "ability": "wisdom",
+                "save_dc": 16,
+                "to_hit": 8,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "mending"
+                            },
+                            {
+                                "spell_id": "sacred_flame"
+                            },
+                            {
+                                "spell_id": "thaumaturgy"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "command"
+                            },
+                            {
+                                "spell_id": "cure_wounds"
+                            },
+                            {
+                                "spell_id": "shield_of_faith"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "calm_emotions"
+                            },
+                            {
+                                "spell_id": "hold_person"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "bestow_curse"
+                            },
+                            {
+                                "spell_id": "clairvoyance"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "banishment"
+                            },
+                            {
+                                "spell_id": "freedom_of_movement"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "5th level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "flame_strike"
+                            },
+                            {
+                                "spell_id": "geas"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "6th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "true_seeing"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Gynosphinx",
@@ -10025,7 +11281,108 @@
                     "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 9,
+                "ability": "intelligence",
+                "save_dc": 16,
+                "to_hit": 8,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "mage_hand"
+                            },
+                            {
+                                "spell_id": "minor_illusion"
+                            },
+                            {
+                                "spell_id": "prestidigitation"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "detect_magic"
+                            },
+                            {
+                                "spell_id": "identify"
+                            },
+                            {
+                                "spell_id": "shield"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "darkness"
+                            },
+                            {
+                                "spell_id": "locate_object"
+                            },
+                            {
+                                "spell_id": "suggestion"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "dispel_magic"
+                            },
+                            {
+                                "spell_id": "remove_curse"
+                            },
+                            {
+                                "spell_id": "tongues"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "4th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "banishment"
+                            },
+                            {
+                                "spell_id": "greater_invisibility"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "5th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "legend_lore"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Half-Red Dragon Veteran",
@@ -10924,7 +12281,23 @@
                     "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "fog_cloud"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Imp",
@@ -11572,7 +12945,60 @@
                     "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 13,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            {
+                                "name": "Disguise Self (any humanoid form)",
+                                "spell_id": "disguise_self"
+                            },
+                            {
+                                "spell_id": "major_image"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "charm_person"
+                            },
+                            {
+                                "spell_id": "mirror_image"
+                            },
+                            {
+                                "spell_id": "scrying"
+                            },
+                            {
+                                "spell_id": "suggestion"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "1/day",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "spell_id": "geas"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Lemure",
@@ -11740,7 +13166,124 @@
                     "desc": "Each living creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 18,
+                "ability": "intelligence",
+                "save_dc": 20,
+                "to_hit": 12,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "mage_hand" },
+                            { "spell_id": "prestidigitation" },
+                            { "spell_id": "ray_of_frost" }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "magic_missile" },
+                            { "spell_id": "shield" },
+                            { "spell_id": "thunderwave" }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "detect_thoughts" },
+                            { "spell_id": "invisibility" },
+                            { 
+                                "name": "Melf's acid arrow",
+                                "spell_id": "acid_arrow"
+                            },
+                            { "spell_id": "mirror_image" }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "animate_dead" },
+                            { "spell_id": "counterspell" },
+                            { "spell_id": "dispel_magic" },
+                            { "spell_id": "fireball" }
+                        ]
+                    },
+                    {
+                        "name": "4th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "blight" },
+                            { "spell_id": "dimension_door" }
+                        ]
+                    },
+                    {
+                        "name": "5th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "cloudkill" },
+                            { "spell_id": "scrying" }
+                        ]
+                    },
+                    {
+                        "name": "6th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "disintegrate" },
+                            { "spell_id": "globe_of_invulnerability"}
+                        ]
+                    },
+                    {
+                        "name": "7th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "finger_of_death" },
+                            { "spell_id": "plane_shift" }
+                        ]
+                    },
+                    {
+                        "name": "8th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "dominate_monster"},
+                            { "spell_id": "power_word_stun" }
+                        ]
+                    },
+                    {
+                        "name": "9th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "power_word_kill" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Lion",
@@ -11950,7 +13493,79 @@
                     "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 9,
+                "ability": "intelligence",
+                "save_dc": 14,
+                "to_hit": 6,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "fire_bolt" },
+                            { "spell_id": "light" },
+                            { "spell_id": "mage_hand" },
+                            { "spell_id": "prestidigitation" }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "mage_armor" },
+                            { "spell_id": "magic_missile" },
+                            { "spell_id": "shield" }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "misty_step" },
+                            { "spell_id": "suggestion" }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "counterspell" },
+                            { "spell_id": "fireball" },
+                            { "spell_id": "fly" }
+                        ]
+                    },
+                    {
+                        "name": "4th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "greater_invisibility" },
+                            { "spell_id": "ice_storm" }
+                        ]
+                    },
+                    {
+                        "name": "5th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "cone_of_cold" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Magma Mephit",
@@ -12024,7 +13639,22 @@
                     "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 10,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "heat_metal" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Magmin",
@@ -12900,7 +14530,86 @@
                     "desc": "The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 10,
+                "ability": "wisdom",
+                "save_dc": 17,
+                "to_hit": 9,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "sacred_flame" },
+                            { "spell_id": "thaumaturgy" }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            { "spell_id": "command" },
+                            { "spell_id": "guiding_bolt" },
+                            { "spell_id": "shield_of_faith" }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "hold_person" },
+                            { "spell_id": "silence" },
+                            { "spell_id": "spiritual_weapon" }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "animate_dead" },
+                            { "spell_id": "dispel_magic" }
+                        ]
+                    },
+                    {
+                        "name": "4th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "divination" },
+                            { "spell_id": "guardian_of_faith" }
+                        ]
+                    },
+                    {
+                        "name": "5th level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            { "spell_id": "contagion" },
+                            { "spell_id": "insect_plague" }
+                        ]
+                    },
+                    {
+                        "name": "6th level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "harm" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Nalfeshnee",
@@ -13092,7 +14801,142 @@
                     "desc": "While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target's hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's hit point maximum lasts until removed by the greater restoration spell or similar magic.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 12,
+                "ability": "intelligence",
+                "save_dc": 15,
+                "to_hit": 7,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1,
+                            "ability": "charisma",
+                            "save_dc": 14,
+                            "to_hit": 6
+                        },
+                        "spells": [
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "magic_missile" }
+                        ]
+                    },
+                    {
+                        "name": "2/day each",
+                        "casts": {
+                            "num": 2,
+                            "isForEach": true,
+                            "ability": "charisma",
+                            "save_dc": 14,
+                            "to_hit": 6
+                        },
+                        "spells": [
+                            { 
+                                "name": "Plane Shift (self only)",
+                                "spell_id": "plane_shift"
+                            },
+                            { "spell_id": "ray_of_enfeeblement" },
+                            { "spell_id": "sleep" }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "name": "Identify",
+                                "spell_id": "identify"
+                            },
+                            {
+                                "name": "Ray of Sickness",
+                                "spell_id": "ray_of_sickness"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Hold Person",
+                                "spell_id": "hold_person"
+                            },
+                            {
+                                "name": "Locate Object",
+                                "spell_id": "locate_object"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 3rd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Bestow Curse",
+                                "spell_id": "bestow_curse"
+                            },
+                            {
+                                "name": "Counterspell",
+                                "spell_id": "counterspell"
+                            },
+                            {
+                                "name": "Lightning Bolt",
+                                "spell_id": "lightning_bolt"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 4th Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Phantasmal Killer",
+                                "spell_id": "phantasmal_killer"
+                            },
+                            {
+                                "name": "Polymorph",
+                                "spell_id": "polymorph"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 5th Level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            {
+                                "name": "Contact Other Plane",
+                                "spell_id": "contact_other_plane"
+                            },
+                            {
+                                "name": "Scrying",
+                                "spell_id": "scrying"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 6th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "name": "Eye Bite",
+                                "spell_id": "eye_bite"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Nightmare",
@@ -13497,7 +15341,36 @@
                     "desc": "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 13,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "darkness" },
+                            { "spell_id": "invisibility" }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "charm_person" },
+                            { "spell_id": "cone_of_cold" },
+                            { "spell_id": "gaseous_form" },
+                            { "spell_id": "sleep" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Orc",
@@ -13958,7 +15831,34 @@
                     "desc": "Melee Weapon Attack: +14 to hit, reach 10ft., one target. Hit: 24 (3d1O + 8) bludgeoning damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 21,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "fireball" }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "hold_monster" },
+                            { "spell_id": "wall_of_fire" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Planetar",
@@ -14044,7 +15944,51 @@
                     "desc": "The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 20,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "detect_evil_and_good" },
+                            {
+                                "name": "Invisibility (Self only)",
+                                "spell_id": "invisibility"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "blade_barrier" },
+                            { "spell_id": "dispel_evil_and_good" },
+                            { "spell_id": "flame_strike" },
+                            { "spell_id": "raise_dead" }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "commune" },
+                            { "spell_id": "control_weather" },
+                            { "spell_id": "insect_plague" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Plesiosaurus",
@@ -14257,7 +16201,57 @@
                     "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 5,
+                "ability": "wisdom",
+                "save_dc": 13,
+                "to_hit": 5,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "light" },
+                            { "spell_id": "sacred_flame" },
+                            { "spell_id": "thaumaturgy" }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            { "spell_id": "cure_wounds" },
+                            { "spell_id": "guiding_bolt" },
+                            { "spell_id": "sanctuary" }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "lesser_restoration" },
+                            { "spell_id": "spiritual_weapon" }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            { "spell_id": "dispel_magic" },
+                            { "spell_id": "spirit_guardians" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Pseudodragon",
@@ -14570,7 +16564,53 @@
                     "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a remove curse spell or similar magic.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 18,
+                "to_hit": 10,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "detect_thoughts" },
+                            { "spell_id": "disguise_self" },
+                            { "spell_id": "mage_hand" },
+                            { "spell_id": "minor_illusion" }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "charm_person" },
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "invisibility" },
+                            { "spell_id": "major_image" },
+                            { "spell_id": "suggestion" }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "dominate_person" },
+                            { "spell_id": "fly" },
+                            { "spell_id": "plane_shift" },
+                            { "spell_id": "true_seeing" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Rat",
@@ -15544,7 +17584,110 @@
                     "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "intelligence",
+                "save_dc": 13,
+                "to_hit": 5,
+                "spell_groups": [
+                    {
+                        "name": "Coven: 1st Level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            {
+                                "name": "Identify",
+                                "spell_id": "identify"
+                            },
+                            {
+                                "name": "Ray of Sickness",
+                                "spell_id": "ray_of_sickness"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 2nd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Hold Person",
+                                "spell_id": "hold_person"
+                            },
+                            {
+                                "name": "Locate Object",
+                                "spell_id": "locate_object"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 3rd Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Bestow Curse",
+                                "spell_id": "bestow_curse"
+                            },
+                            {
+                                "name": "Counterspell",
+                                "spell_id": "counterspell"
+                            },
+                            {
+                                "name": "Lightning Bolt",
+                                "spell_id": "lightning_bolt"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 4th Level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            {
+                                "name": "Phantasmal Killer",
+                                "spell_id": "phantasmal_killer"
+                            },
+                            {
+                                "name": "Polymorph",
+                                "spell_id": "polymorph"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 5th Level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            {
+                                "name": "Contact Other Plane",
+                                "spell_id": "contact_other_plane"
+                            },
+                            {
+                                "name": "Scrying",
+                                "spell_id": "scrying"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Coven: 6th Level",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            {
+                                "name": "Eye Bite",
+                                "spell_id": "eye_bite"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Sea Horse",
@@ -16060,7 +18203,49 @@
                     "desc": "The solar targets one creature it can see within 30 ft. of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 25,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "detect_evil_and_good" },
+                            { 
+                                "name": "Invisibility (self only)",
+                                "spell_id": "invisibility"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "3/day each",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "blade_barrier" },
+                            { "spell_id": "dispel_evil_and_good" },
+                            { "spell_id": "resurrection" }
+                        ]
+                    },
+                    {
+                        "name": "1/day each",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "commune" },
+                            { "spell_id": "control_weather" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Specter",
@@ -16248,7 +18433,76 @@
                     "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "level": 10,
+                "ability": "intelligence",
+                "save_dc": 14,
+                "to_hit": 6,
+                "spell_groups": [
+                    {
+                        "name": "Cantrips (at will)",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "mage_hand" },
+                            { "spell_id": "minor_illusion" },
+                            { "spell_id": "ray_of_frost" }
+                        ]
+                    },
+                    {
+                        "name": "1st level",
+                        "casts": {
+                            "num": 4
+                        },
+                        "spells": [
+                            { "spell_id": "charm_person" },
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "sleep" }
+                        ]
+                    },
+                    {
+                        "name": "2nd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "detect_thoughts" },
+                            { "spell_id": "hold_person" }
+                        ]
+                    },
+                    {
+                        "name": "3rd level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "lightning_bolt" },
+                            { "spell_id": "water_breathing" }
+                        ]
+                    },
+                    {
+                        "name": "4th level",
+                        "casts": {
+                            "num": 3
+                        },
+                        "spells": [
+                            { "spell_id": "blight" },
+                            { "spell_id": "dimension_door" }
+                        ]
+                    },
+                    {
+                        "name": "5th level",
+                        "casts": {
+                            "num": 2
+                        },
+                        "spells": [
+                            { "spell_id": "dominate_person" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Sprite",
@@ -16433,7 +18687,21 @@
                     "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "spell_groups": [
+                    {
+                        "name": "1/day",
+                        "casts": {
+                            "num": 1
+                        },
+                        "spells": [
+                            { "spell_id": "blur" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Stirge",
@@ -16693,7 +18961,36 @@
                     "desc": "The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 17,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "detect_magic" },
+                            { "spell_id": "feather_fall" },
+                            { "spell_id": "levitate" },
+                            { "spell_id": "light" }
+                        ]
+                    },
+                    {
+                        "name": "3/day",
+                        "casts": {
+                            "num": 3,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "control_weather" },
+                            { "spell_id": "water_breathing" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Succubus/Incubus",
@@ -17973,7 +20270,36 @@
                     "desc": "The unicorn magically regains 11 (2d8 + 2) hit points.",
                     "what": []
                 }
-            ]
+            ],
+            "spellcasting": {
+                "ability": "charisma",
+                "save_dc": 14,
+                "spell_groups": [
+                    {
+                        "name": "At will",
+                        "casts": {
+                            "num": -1
+                        },
+                        "spells": [
+                            { "spell_id": "detect_evil_and_good" },
+                            { "spell_id": "druidcraft" },
+                            { "spell_id": "pass_without_trace" }
+                        ]
+                    },
+                    {
+                        "name": "1/day",
+                        "casts": {
+                            "num": 1,
+                            "isForEach": true
+                        },
+                        "spells": [
+                            { "spell_id": "calm_emotions" },
+                            { "spell_id": "dispel_evil_and_good" },
+                            { "spell_id": "entangle" }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Vampire",
