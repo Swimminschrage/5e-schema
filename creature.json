@@ -3,6 +3,19 @@
   "$id": "https://raw.githubusercontent.com/Swimminschrage/5e-schema/master/creature.json",
   "definitions": {
     "attribute": {
+      "type": "string",
+      "title": "An attirute",
+      "description": "A string naming one of the 6 main attributes",
+      "enum": [
+        "strength",
+        "dexterity",
+        "constitution",
+        "wisdom",
+        "intelligence",
+        "charisma"
+      ]
+    },
+    "attribute_score": {
       "type": "integer",
       "title": "Any attribute definition",
       "description": "The value of any of the 6 main attributes",
@@ -92,15 +105,7 @@
       "type": "object",
       "properties": {
         "attribute": {
-          "type": "string",
-          "enum": [
-            "strength",
-            "dexterity",
-            "constitution",
-            "wisdom",
-            "intelligence",
-            "charisma"
-          ]
+          "$ref": "#/definitions/attribute"
         },
         "dc": {
           "type": "integer",
@@ -224,15 +229,12 @@
         }
       },
       "required": [
-        "name"
+        "spell_id"
       ],
       "examples": [
         {
           "name": "Fireball",
           "spell_id": "fireball"
-        },
-        {
-          "name": "Magic Missile"
         }
       ]
     },
@@ -254,6 +256,20 @@
             "isForEach": {
               "type": "boolean",
               "default": false
+            },
+            "ability": {
+              "$ref": "#/definitions/attribute"
+            },
+            "save_dc": {
+              "title": "Spell Save DC",
+              "description": "Overriding spell save dc for spells of this group which overrides what is described at the 'spellcasting' node.",
+              "type": "integer",
+              "minimum": 1
+            },
+            "to_hit": {
+              "title": "Spell Attack Modifier",
+              "description": "Overriding spell attack modifer for spells of this group.  Overrides what's defined at the 'spellcasting' node.",
+              "type": "integer"
             }
           },
           "required": [
@@ -401,32 +417,32 @@
     "strength": {
       "title": "Strength",
       "description": "The creature's Strength score",
-      "$ref": "#/definitions/attribute"
+      "$ref": "#/definitions/attribute_score"
     },
     "dexterity": {
       "title": "Dexterity",
       "description": "The creature's Dexterity score",
-      "$ref": "#/definitions/attribute"
+      "$ref": "#/definitions/attribute_score"
     },
     "constitution": {
       "title": "Constitution",
       "description": "The creature's Constitution score",
-      "$ref": "#/definitions/attribute"
+      "$ref": "#/definitions/attribute_score"
     },
     "intelligence": {
       "title": "Intelligence",
       "description": "The creature's Intelligence score",
-      "$ref": "#/definitions/attribute"
+      "$ref": "#/definitions/attribute_score"
     },
     "wisdom": {
       "title": "Wisdom",
       "description": "The creature's Wisdom score",
-      "$ref": "#/definitions/attribute"
+      "$ref": "#/definitions/attribute_score"
     },
     "charisma": {
       "title": "Charisma",
       "description": "The creature's Charisma score",
-      "$ref": "#/definitions/attribute"
+      "$ref": "#/definitions/attribute_score"
     },
     "strength_save": {
       "title": "Strength Save",
@@ -585,12 +601,37 @@
       "type": "number"
     },
     "spellcasting": {
-      "title": "Spellcasting",
-      "description": "Array of spellcast_group's which are spells grouped by level or number of times they can be cast.",
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/spellcast_group"
-      }
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "title": "Spellcaster Level"
+        },
+        "ability": {
+          "$ref": "#/definitions/attribute"
+        },
+        "save_dc": {
+          "type": "integer",
+          "minimum": 1,
+          "title": "Spell Save DC"
+        },
+        "to_hit": {
+          "type": "integer",
+          "default": 0,
+          "title": "Spell Attack Modifier"
+        },
+        "spell_groups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/spellcast_group"
+          }
+        }
+      },
+      "required": [
+        "spell_groups",
+        "ability"
+      ]
     },
     "special_abilities": {
       "title": "Special Abilities",
