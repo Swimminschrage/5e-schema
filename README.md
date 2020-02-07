@@ -7,7 +7,8 @@ Contains definitions for the following artifacts:
 - Modules (Entire adventures or supplemental content)
   - Chapters (Breakdown of content in a module)
     - Encounters (Scenarios consisting of various creatures)
-  - Creatures (Stat blocks)   
+  - Creatures (Stat blocks)
+  - Spells (Definitions)
 
 ## Using this Schema
 ### As a content creator
