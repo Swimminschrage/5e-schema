@@ -19,6 +19,17 @@
             "wisdom": 8,
             "charisma": 5,
             "armor_class": 16,
+            "damage_resistances": [
+            	"acid",
+            	{
+            		"resist": [
+            			"bludgeoning",
+            			"piercing",
+            			"slashing"
+            		],
+            		"note": "from non-silvered weapons"
+            	}
+            ],
             "condition_immunities": [
                 "poisoned"
             ],

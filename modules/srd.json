@@ -3068,6 +3068,9 @@
             "wisdom": 10,
             "charisma": 6,
             "armor_class": 9,
+            "damage_vulnerabilities": [
+                "fire"
+            ],
             "damage_resistances": [
                 "piercing"
             ],
@@ -3114,6 +3117,9 @@
             "wisdom": 10,
             "charisma": 7,
             "armor_class": 13,
+            "damage_vulnerabilities": [
+                "fire"
+            ],
             "damage_resistances": [
                 "bludgeoning",
                 "piercing"
@@ -7201,6 +7207,9 @@
             "armor_class": 12,
             "perception": 2,
             "stealth": 4,
+            "damage_vulnerabilities": [
+                "fire"
+            ],
             "damage_immunities": [
                 "poison"
             ],
@@ -7326,6 +7335,9 @@
             "wisdom": 10,
             "charisma": 5,
             "armor_class": 17,
+            "damage_vulnerabilities": [
+                "thunder"
+            ],
             "damage_resistances": [
                 "bludgeoning",
                 "piercing",
@@ -12228,6 +12240,10 @@
             "armor_class": 11,
             "perception": 2,
             "stealth": 3,
+            "damage_vulnerabilities": [
+                "bludgeoning",
+                "fire"
+            ],
             "damage_immunities": [
                 "cold",
                 "poison"
@@ -13586,6 +13602,9 @@
             "charisma": 10,
             "armor_class": 11,
             "stealth": 3,
+            "damage_vulnerabilities": [
+                "cold"
+            ],
             "damage_immunities": [
                 "fire",
                 "poison"
@@ -14280,6 +14299,9 @@
             "wisdom": 8,
             "charisma": 5,
             "armor_class": 12,
+            "damage_vulnerabilities": [
+                "bludgeoning"
+            ],
             "damage_immunities": [
                 "poison"
             ],
@@ -14382,6 +14404,9 @@
             "charisma": 12,
             "wisdom_save": 2,
             "armor_class": 11,
+            "damage_vulnerabilities": [
+                "fire"
+            ],
             "damage_immunities": [
                 "bludgeoning",
                 "piercing",
@@ -14445,6 +14470,9 @@
             "armor_class": 17,
             "history": 5,
             "religion": 5,
+            "damage_vulnerabilities": [
+                "fire"
+            ],
             "damage_immunities": [
                 "necrotic",
                 "poison",
@@ -16524,6 +16552,9 @@
             "armor_class": 16,
             "deception": 10,
             "insight": 8,
+            "damage_vulnerabilities": [
+                "piercing from magic weapons wielded by good creatures"
+            ],
             "damage_immunities": [
                 "bludgeoning",
                 "piercing",
@@ -17304,6 +17335,9 @@
             "wisdom": 10,
             "charisma": 12,
             "armor_class": 15,
+            "damage_vulnerabilities": [
+                "cold"
+            ],
             "damage_resistances": [
                 "bludgeoning",
                 "piercing",
@@ -17740,6 +17774,9 @@
             "charisma": 8,
             "armor_class": 12,
             "stealth": 4,
+            "damage_vulnerabilities": [
+                "radiant"
+            ],
             "damage_resistances": [
                 "acid",
                 "cold",
@@ -18059,7 +18096,11 @@
             "charisma": 5,
             "armor_class": 13,
             "condition_immunities": [
+                "exhaustion",
                 "poisoned"
+            ],
+            "damage_vulnerabilities": [
+                "bludgeoning"
             ],
             "speed": [
                 "30 ft."
@@ -19914,6 +19955,9 @@
             "wisdom": 16,
             "charisma": 12,
             "armor_class": 16,
+            "damage_vulnerabilities": [
+                "fire"
+            ],
             "damage_resistances": [
                 "bludgeoning",
                 "piercing"
@@ -20800,6 +20844,9 @@
             "condition_immunities": [
                 "exhaustion",
                 "poisoned"
+            ],
+            "damage_vulnerabilities": [
+                "bludgeoning"
             ],
             "speed": [
                 "60 ft."

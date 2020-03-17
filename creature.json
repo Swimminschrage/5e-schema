@@ -216,6 +216,39 @@
         "desc"
       ]
     },
+    "complex_damage_type": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "special": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": ["special"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "resist": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "note": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": ["resist"]
+        }
+      ] 
+    },
     "spell": {
       "type": "object",
       "properties": {
@@ -542,29 +575,29 @@
     },
     "damage_vulnerabilities": {
       "title": "Damage Vulnerabilities",
-      "description": "Array of strings listing the types of damage that this creature is vulnerable to (takes double damage).",
+      "description": "Array of strings or objects listing the types of damage that this creature is vulnerable to (takes double damage).",
       "$id": "#/properties/damage_vulnerabilities",
       "type": "array",
       "items": {
-        "type": "string"
+        "$ref": "#/definitions/complex_damage_type"
       }
     },
     "damage_resistances": {
       "title": "Damage Resistances",
-      "description": "Array of strings listing the types of damage that this creature has a resistance to (takes half damage).",
+      "description": "Array of strings or objects listing the types of damage that this creature has a resistance to (takes half damage).",
       "$id": "#/properties/damage_resistances",
       "type": "array",
       "items": {
-        "type": "string"
+        "$ref": "#/definitions/complex_damage_type"
       }
     },
     "damage_immunities": {
       "title": "Damage Immunities",
-      "description": "Array of strings listing the types of damage that this creature is immune to (takes no damage from).",
+      "description": "Array of strings or objects listing the types of damage that this creature is immune to (takes no damage from).",
       "$id": "#/properties/damage_immunities",
       "type": "array",
       "items": {
-        "type": "string"
+        "$ref": "#/definitions/complex_damage_type"
       }
     },
     "condition_immunities": {
